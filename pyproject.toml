@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools >= 61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clover"
+version = "0.1.0"
+description = "CLOVER: Compositional Loop Invariant Inference for Multiphase Programs via Tree-Structured Neurosymbolic Reasoning"
+readme = "README.md"
+requires-python = ">= 3.9"
+authors = [{ name = "Anonymous" }]
+license = { text = "MIT License" }
+keywords = ["loop-invariant", "program-verification", "smt", "neurosymbolic", "llm"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    'Intended Audience :: Science/Research',
+    'Topic :: Scientific/Engineering :: Artificial Intelligence',
+]
+dynamic=["dependencies"]
+
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+where = ["src"]  # list of folders that contain the packages (["."] by default)
+
+[project.urls]
+Homepage = "https://github.com/clover-icse/clover"

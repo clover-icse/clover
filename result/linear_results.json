@@ -1,0 +1,1898 @@
+[
+  {
+    "id": "result_1",
+    "final_answer": "(y >= 100000 && y < 100000) || (x >= y && y <= 100000 && x >= 1 && y >= 0)",
+    "error": "None",
+    "runtime_seconds": 12.436580419540405
+  },
+  {
+    "id": "result_10",
+    "final_answer": "(x >= 0 && y >= 0 && x <= 2 && y <= 2) || (x >= 0 && y >= 0 && y > 0)",
+    "error": "None",
+    "runtime_seconds": 63.855998039245605
+  },
+  {
+    "id": "result_100",
+    "final_answer": "(x <= 0 && y == n && n >= 0)||(x > 0 && x + y == n && y >= 0 && n >= 0)",
+    "error": "None",
+    "runtime_seconds": 18.73400092124939
+  },
+  {
+    "id": "result_101",
+    "final_answer": "(x >= 0 && x <= n) || (n < 0)",
+    "error": "None",
+    "runtime_seconds": 31.467864751815796
+  },
+  {
+    "id": "result_102",
+    "final_answer": "(x == 0 && n <= 0) || (x >= 0 && x <= n && n >= 0)",
+    "error": "None",
+    "runtime_seconds": 138.22136044502258
+  },
+  {
+    "id": "result_103",
+    "final_answer": "(x >= 100 && x <= 100) || (x < 100 && x >= 0 && x <= 100)",
+    "error": "None",
+    "runtime_seconds": 11.98850131034851
+  },
+  {
+    "id": "result_104",
+    "final_answer": "(x >= n && n < 0) || (x >= 0 && x <= n)",
+    "error": "None",
+    "runtime_seconds": 24.518313884735107
+  },
+  {
+    "id": "result_105",
+    "final_answer": "(x >= n && x == 0) || (x >= 0 && x <= n)",
+    "error": "None",
+    "runtime_seconds": 20.71627926826477
+  },
+  {
+    "id": "result_106",
+    "final_answer": "(k >= 1 && a <= m) || (k == 0 && a <= m) || (k == 0 && a <= m)",
+    "error": "None",
+    "runtime_seconds": 40.74398136138916
+  },
+  {
+    "id": "result_107",
+    "final_answer": "(a <= m) || (k == 0) || (a <= m)",
+    "error": "None",
+    "runtime_seconds": 37.22012233734131
+  },
+  {
+    "id": "result_108",
+    "final_answer": "(a <= m) || (a <= m) || (a <= m)",
+    "error": "None",
+    "runtime_seconds": 17.260578870773315
+  },
+  {
+    "id": "result_109",
+    "final_answer": "(k >= c && (c <= 0 || a <= m)) || (k < c && m < a && k >= 0) || (k < c && m >= a && k >= 0)",
+    "error": "None",
+    "runtime_seconds": 46.151829957962036
+  },
+  {
+    "id": "result_11",
+    "final_answer": "(x >= 0 && x <= 10 && y >= 0 && y <= 10 && (x != 20 || y != 0)) || (x >= 0 && y >= 0 && (x != 20 || y != 0))",
+    "error": "None",
+    "runtime_seconds": 16.116218090057373
+  },
+  {
+    "id": "result_110",
+    "final_answer": "((i > n) && (sn == n) && (i == n + 1)) || ((i <= n) && (sn == i - 1) && (i >= 1) && (sn >= 0))",
+    "error": "None",
+    "runtime_seconds": 21.053824424743652
+  },
+  {
+    "id": "result_111",
+    "final_answer": "(i > n && sn == n && i == n+1) || ((i <= n) && sn == i-1 && i >= 1 && sn >= 0)",
+    "error": "None",
+    "runtime_seconds": 27.06037187576294
+  },
+  {
+    "id": "result_112",
+    "final_answer": "(i > n && sn == n && i == n + 1) || (i <= n && sn == i - 1 && i >= 1 && sn >= 0)",
+    "error": "None",
+    "runtime_seconds": 14.940135717391968
+  },
+  {
+    "id": "result_113",
+    "final_answer": "((i > n) && (sn == n)) || ((i <= n) && (sn == i - 1 && sn >= 0))",
+    "error": "None",
+    "runtime_seconds": 17.467392206192017
+  },
+  {
+    "id": "result_114",
+    "final_answer": "(sn == x) || (sn == x)",
+    "error": "None",
+    "runtime_seconds": 8.641938209533691
+  },
+  {
+    "id": "result_115",
+    "final_answer": "(sn == x) || (sn == x)",
+    "error": "None",
+    "runtime_seconds": 8.223776578903198
+  },
+  {
+    "id": "result_116",
+    "final_answer": "(sn == x) || (sn == x)",
+    "error": "None",
+    "runtime_seconds": 9.99690294265747
+  },
+  {
+    "id": "result_117",
+    "final_answer": "(sn == x) || (sn == x)",
+    "error": "None",
+    "runtime_seconds": 9.455875635147095
+  },
+  {
+    "id": "result_118",
+    "final_answer": "((i > size) && (sn == size)) || ((i <= size) && (sn == i - 1 && i >= 1))",
+    "error": "None",
+    "runtime_seconds": 19.780225038528442
+  },
+  {
+    "id": "result_119",
+    "final_answer": "(i > size && sn == size && sn >= 0) || ((i <= size) && sn == i - 1 && sn >= 0)",
+    "error": "None",
+    "runtime_seconds": 19.30563521385193
+  },
+  {
+    "id": "result_12",
+    "final_answer": "(x >= 0 && x <= 10 && y >= 0 && y <= 10 && (x != 20 || y != 0)) || (x >= 0 && y >= 0 && (x != 20 || y != 0))",
+    "error": "None",
+    "runtime_seconds": 13.708422899246216
+  },
+  {
+    "id": "result_120",
+    "final_answer": "(i > 8 && sn == 8 && i == 9) || (i <= 8 && sn == i - 1 && sn >= 0)",
+    "error": "None",
+    "runtime_seconds": 22.234966039657593
+  },
+  {
+    "id": "result_121",
+    "final_answer": "(i > 8 && sn == 8) || (i <= 8 && sn == i - 1)",
+    "error": "None",
+    "runtime_seconds": 16.636346340179443
+  },
+  {
+    "id": "result_122",
+    "final_answer": "(i > size && sn == size && i == size + 1) || (i <= size && sn == i - 1 && i >= 1 && sn >= 0)",
+    "error": "None",
+    "runtime_seconds": 20.10565757751465
+  },
+  {
+    "id": "result_123",
+    "final_answer": "(i > size && sn == size && sn >= 0) || (i <= size && sn == i - 1 && sn >= 0)",
+    "error": "None",
+    "runtime_seconds": 17.32940411567688
+  },
+  {
+    "id": "result_124",
+    "final_answer": "(x == 0 && i == j && y == 0) || (y - x == j - i)",
+    "error": "None",
+    "runtime_seconds": 30.201584100723267
+  },
+  {
+    "id": "result_125",
+    "final_answer": "(i - j == x - y) || (i - j == x - y)",
+    "error": "None",
+    "runtime_seconds": 21.109029293060303
+  },
+  {
+    "id": "result_126",
+    "final_answer": "(x == 0 && y == j - i) || (x != 0 && (y - x) == (j - i))",
+    "error": "None",
+    "runtime_seconds": 48.728822469711304
+  },
+  {
+    "id": "result_127",
+    "final_answer": "(i - j == x - y) || (i - j == x - y)",
+    "error": "None",
+    "runtime_seconds": 19.194107055664062
+  },
+  {
+    "id": "result_128",
+    "final_answer": "(x >= 1) || (x >= 1)",
+    "error": "None",
+    "runtime_seconds": 11.48798656463623
+  },
+  {
+    "id": "result_129",
+    "final_answer": "(x >= 1) || (x >= 1)",
+    "error": "None",
+    "runtime_seconds": 13.285146236419678
+  },
+  {
+    "id": "result_13",
+    "final_answer": "(x >= 0 && y >= 0 && x <= y + 2)",
+    "error": "None",
+    "runtime_seconds": 123.11791062355042
+  },
+  {
+    "id": "result_130",
+    "final_answer": "(x1 <= 0 && x2 >= 0 && d1 == 1 && d2 == 1 && d3 == 1) || (x1 > 0 && x2 > 0 && x3 > 0 && x2 >= x1 && x1 >= 0 && x3 >= x1 && d1 == 1 && d2 == 1 && d3 == 1) || (x1 > 0 && x2 > 0 && x3 <= 0 && d1 == 1 && d2 == 1 && d3 == 1) || (x1 > 0 && x2 <= 0 && d1 == 1 && d2 == 1 && d3 == 1)",
+    "error": "None",
+    "runtime_seconds": 78.78804516792297
+  },
+  {
+    "id": "result_131",
+    "final_answer": "(x1 <= 0 && x3 >= 0)||(x1 > 0 && x2 > 0 && x3 > 0 && x3 >= x1 && x1 >= 0 && d1 == 1 && d3 == 1)||(x1 > 0 && x2 > 0 && x3 <= 0 && d1 == 1 && d3 == 1)||(x1 > 0 && x2 <= 0 && x3 >= 0 && d1 == 1 && d3 == 1)",
+    "error": "None",
+    "runtime_seconds": 88.3005359172821
+  },
+  {
+    "id": "result_132",
+    "final_answer": "(i >= 0) || (i >= 0) || (i >= 0) || (i >= 0)",
+    "error": "None",
+    "runtime_seconds": 36.275415897369385
+  },
+  {
+    "id": "result_133",
+    "final_answer": "(x == n) || (x >= 0 && x <= n)",
+    "error": "None",
+    "runtime_seconds": 17.851684093475342
+  },
+  {
+    "id": "result_134",
+    "final_answer": "(c == cl + p && p <= 4) || (c == cl + p && p <= 4)",
+    "error": "None",
+    "runtime_seconds": 36.889371156692505
+  },
+  {
+    "id": "result_135",
+    "final_answer": "(p >= 0 && p <= 4) || (p >= 0 && p <= 4 && cl >= 0 && p + cl == c)",
+    "error": "None",
+    "runtime_seconds": 24.054328680038452
+  },
+  {
+    "id": "result_136",
+    "final_answer": "(v1 <= 5) || (v1 <= 5) || (v1 <= 5) || (x2 * 2 - x1 - x3 < 0 && x2 * 2 - x1 - x3 > 0)",
+    "error": "None",
+    "runtime_seconds": 34.827110290527344
+  },
+  {
+    "id": "result_137",
+    "final_answer": "(v2 * 2 + t * 2 >= v1 + v3) || (v2 * 2 + t * 2 >= v1 + v3) || (v2 * 2 + t * 2 >= v1 + v3) || (v2 * 2 + t * 2 >= v1 + v3)",
+    "error": "None",
+    "runtime_seconds": 29.340296506881714
+  },
+  {
+    "id": "result_138",
+    "final_answer": "(x2 <= 75 + 5 * t) || (x2 * 2 - x1 - x3 >= 0 && x2 <= 75 + 5 * t) || (x2 * 2 - x1 - x3 <= 0 && x2 <= 75 + 5 * t) || (x2 <= 75 + 5 * t)",
+    "error": "None",
+    "runtime_seconds": 74.77893114089966
+  },
+  {
+    "id": "result_139",
+    "final_answer": "(v2 <= 6) || (v2 <= 6) || (v2 <= 6) || (v2 <= 6)",
+    "error": "None",
+    "runtime_seconds": 42.01042938232422
+  },
+  {
+    "id": "result_14",
+    "final_answer": "(x >= 0 && x <= 2 && y >= 0 && y <= 2) || (x >= 0 && y >= 0 && (y != 0 || x != 4))",
+    "error": "None",
+    "runtime_seconds": 18.073171854019165
+  },
+  {
+    "id": "result_140",
+    "final_answer": "(v3 >= 0) || (v3 >= 0) || (v3 >= 0) || (v3 >= 0)",
+    "error": "None",
+    "runtime_seconds": 38.94997811317444
+  },
+  {
+    "id": "result_141",
+    "final_answer": "(v2 + 6 >= 0) || (v2 + 6 >= 0) || (v2 + 6 >= 0) || (v2 + 6 >= 0)",
+    "error": "None",
+    "runtime_seconds": 42.384276390075684
+  },
+  {
+    "id": "result_142",
+    "final_answer": "(x2 + t * 5 >= 75) || (x2 + t * 5 >= 75) || (x2 + t * 5 >= 75) || (x2 + t * 5 >= 75)",
+    "error": "None",
+    "runtime_seconds": 46.40338087081909
+  },
+  {
+    "id": "result_143",
+    "final_answer": "(v1 + v3 + t * 2 - v2 * 2 >= 0) || (v1 + v3 + t * 2 - v2 * 2 >= 0) || (v1 + v3 + t * 2 - v2 * 2 >= 0) || (x1 == x1 && v1 + v3 + t * 2 - v2 * 2 >= 0)",
+    "error": "None",
+    "runtime_seconds": 50.421948194503784
+  },
+  {
+    "id": "result_144",
+    "final_answer": "(v1 - v3 >= 0) || (v1 - v3 >= 0) || (v1 - v3 >= 0) || (v1 - v3 >= 0)",
+    "error": "None",
+    "runtime_seconds": 33.76701068878174
+  },
+  {
+    "id": "result_145",
+    "final_answer": "(mid <= 0 && lo == hi) || (mid > 0 && hi == lo + 2 * mid)",
+    "error": "None",
+    "runtime_seconds": 24.178710222244263
+  },
+  {
+    "id": "result_146",
+    "final_answer": "(y >= 1024 && x == 0 && y >= 0) || (y < 1024 && y >= 0)",
+    "error": "None",
+    "runtime_seconds": 32.656014919281006
+  },
+  {
+    "id": "result_147",
+    "final_answer": "(xa + ya * 2 >= 0) || (xa + ya * 2 >= 0) || (xa + ya * 2 >= 0)",
+    "error": "None",
+    "runtime_seconds": 23.983364820480347
+  },
+  {
+    "id": "result_148",
+    "final_answer": "(y >= 1 && x >= 1)",
+    "error": "None",
+    "runtime_seconds": 21.436851263046265
+  },
+  {
+    "id": "result_149",
+    "final_answer": "(x == 0 && y == 0 && i == 0 && j == 0) || (j >= i && x >= 0 && y >= 0 && i >= 0 && j >= 0 && x == y)",
+    "error": "None",
+    "runtime_seconds": 57.1438148021698
+  },
+  {
+    "id": "result_15",
+    "final_answer": "(x>=n && x>=0 && (n<=0 || n>=1) && (n<=0 || m<n)) || (x<n && m<=x && x>=0 && (n<=0 || n>=1))",
+    "error": "None",
+    "runtime_seconds": 152.06386399269104
+  },
+  {
+    "id": "result_150",
+    "final_answer": "(x == 0 && y == 0) || (x >= 4 && y >= x - 4 && y > 2) || (x < 0 && y >= 1 && x != -1 && y >= x && y >= 0 && y != 1 && x >= 0) || (x >= 0 && x <= 4 && y >= 100 * x)",
+    "error": "None",
+    "runtime_seconds": 197.98464250564575
+  },
+  {
+    "id": "result_151",
+    "final_answer": "(x == 0 && y == 0) || (x >= 4 && y >= x - 4 && y > 2) || (false) || (x >= 0 && x <= 4 && y >= 100 * x)",
+    "error": "None",
+    "runtime_seconds": 80.161940574646
+  },
+  {
+    "id": "result_152",
+    "final_answer": "(k >= 0) || (k >= 0) || (k >= 0) || (k >= 0) || (k >= 0) || (k >= 0) || (k >= 0) || (k >= 0) || (k >= 0) || (k >= 0) || (k >= 0)",
+    "error": "None",
+    "runtime_seconds": 93.64918780326843
+  },
+  {
+    "id": "result_153",
+    "final_answer": "(x == y && w == 1 && z == 0 && x >= 0 && y >= 0) || ((w != 1 && z == 0 && x == 0 && y == 0 && w == 0 && z == 0 && 0 == 1)) || ((w == 1 && z != 0 && x == y && x >= 0 && y >= 0 && z == 1 && z == 0)) || (w != 1 && z != 0 && x == y && x >= 0 && y >= 0)",
+    "error": "None",
+    "runtime_seconds": 173.28148698806763
+  },
+  {
+    "id": "result_154",
+    "final_answer": "(i >= x && j == 2 * x && x > 0) || (i < x && j == 2 * i && x > 0)",
+    "error": "None",
+    "runtime_seconds": 16.07346796989441
+  },
+  {
+    "id": "result_155",
+    "final_answer": "k == 0 && j == 2 && t != 0 && (j == 2) || (t == 0 && k == 0) || (t != 0 && j == k * 2 + 2 && k >= 0)",
+    "error": "None",
+    "runtime_seconds": 38.84440207481384
+  },
+  {
+    "id": "result_156",
+    "final_answer": "(j == 2 && k == 0) || (j >= 2 && k == 0 && t == 0) || (j >= 2 && k >= 0 && j == 2 * k + 2 && t != 0)",
+    "error": "None",
+    "runtime_seconds": 49.20548415184021
+  },
+  {
+    "id": "result_157",
+    "final_answer": "((j > m && a >= -m && m > 0)) || ((j <= m && a >= -m && m > 0 && j >= 1 && a >= 0 - j + 1))",
+    "error": "None",
+    "runtime_seconds": 88.47065711021423
+  },
+  {
+    "id": "result_158",
+    "final_answer": "(j > m && j == m + 1 && a >= -m && a <= m) || (j <= m && j >= 1 && a >= -m && a <= m && a <= j - 1 && a >= -j + 1)",
+    "error": "None",
+    "runtime_seconds": 80.15295171737671
+  },
+  {
+    "id": "result_159",
+    "final_answer": "(j >= n && k >= 0)||(j < n && k >= n - j)",
+    "error": "None",
+    "runtime_seconds": 17.958991765975952
+  },
+  {
+    "id": "result_16",
+    "final_answer": "(x >= n && m >= 0) || (m >= 0 && x >= 0 && x <= n) || (m >= 0 && x >= 0 && x <= n)",
+    "error": "None",
+    "runtime_seconds": 34.75881052017212
+  },
+  {
+    "id": "result_160",
+    "final_answer": "(y == x + (j - i)) || (y == x + (j - i))",
+    "error": "None",
+    "runtime_seconds": 25.75714683532715
+  },
+  {
+    "id": "result_161",
+    "final_answer": "(y == j - (i - x)) || (y == j - (i - x))",
+    "error": "None",
+    "runtime_seconds": 18.809787034988403
+  },
+  {
+    "id": "result_162",
+    "final_answer": "(k >= 1 && i >= 1 && j >= 0) || (k >= 1 && i >= n && j >= 0) || (k >= 1 && i >= 1 && j >= 0) || (k >= 1 && i >= 1 && j >= 0 && j >= i) || (k >= 1 && i >= 1 && j >= 0 && turn == 2) || (k >= 1 && i >= 1 && j >= 0)",
+    "error": "None",
+    "runtime_seconds": 101.18006467819214
+  },
+  {
+    "id": "result_163",
+    "final_answer": "(flag == 1 && b == n && j == n) || (b >= 0 && b <= n && j == b && flag == 1) || (b >= 0 && b <= n && j == 0 && flag != 1) || (b > 1 && b < 1)",
+    "error": "None",
+    "runtime_seconds": 72.4916000366211
+  },
+  {
+    "id": "result_164",
+    "final_answer": "(b >= n && j <= n && n > 0 && (j == n || flag != 1)) || (b <= n && flag == 1 && j == b && n > 0) || (b >= 0 && b < n && flag != 1 && j == 0 && n > 0) || (b > 1 && b < 1)",
+    "error": "None",
+    "runtime_seconds": 69.20026874542236
+  },
+  {
+    "id": "result_165",
+    "final_answer": "(x >= n && y == n && m >= 0 && m < n)||(x < n && x + 1 <= m && y == m && x <= m && m >= 0 && m < n)||(x < n && x + 1 > m && y == m + (x - m) && x >= m && m >= 0 && m < n)||(x < n && x + 1 > m && x + 1 <= m && m < 0 && m >= 0)",
+    "error": "None",
+    "runtime_seconds": 92.95718455314636
+  },
+  {
+    "id": "result_166",
+    "final_answer": "((x + y) == k) || ((x + y) == k) || ((x + y) == k) || ((x + y) == k) || ((x + y) == k) || (j > j)",
+    "error": "None",
+    "runtime_seconds": 51.401580572128296
+  },
+  {
+    "id": "result_167",
+    "final_answer": "((j >= n && m >= 0)) || ((j < n && j == i && m >= 0 && j >= 0)) || ((j < n && j != i && m >= 0 && j >= 0)) || ((j < n && j != i && j == i && j > j))",
+    "error": "None",
+    "runtime_seconds": 83.89689183235168
+  },
+  {
+    "id": "result_168",
+    "final_answer": "(j >= n && m >= 0)||(j < n && j == i && m >= 0 && m <= j)||(j < n && j == i && m >= 0 && m <= j)||(j < n && j != i && m >= 0 && m <= j)||(j < n && j != i && m >= 0 && m <= j)||(j < n && j != i && j == i && j > j)",
+    "error": "None",
+    "runtime_seconds": 66.11874675750732
+  },
+  {
+    "id": "result_169",
+    "final_answer": "(false) || (false) || (j >= 0 && m <= j && (n <= 0 || m <= n))",
+    "error": "None",
+    "runtime_seconds": 311.8311252593994
+  },
+  {
+    "id": "result_17",
+    "final_answer": "(n < 1)||(n >= 1 && (n <= 1 || (n > 1 && m < n)))||(false && true)",
+    "error": "None",
+    "runtime_seconds": 40.9059739112854
+  },
+  {
+    "id": "result_170",
+    "final_answer": "(j < n && m <= j) || (j >= n && (m <= n || n <= 0))",
+    "error": "None",
+    "runtime_seconds": 102.27131628990173
+  },
+  {
+    "id": "result_171",
+    "final_answer": "(i >= n && k > n && n > 0)||(i < n && k >= 0 && n > 0 && n < 10)||(i < n && k >= 0 && n > 0 && n < 10)",
+    "error": "None",
+    "runtime_seconds": 44.81894111633301
+  },
+  {
+    "id": "result_172",
+    "final_answer": "(i >= n && sum >= 0 && i >= 0 && n > 0) || (i < n && sum >= 0 && i >= 0 && n > 0)",
+    "error": "None",
+    "runtime_seconds": 13.90405011177063
+  },
+  {
+    "id": "result_173",
+    "final_answer": "(i >= j) || (i == j) || (i >= j) || (i >= j && x == y) || (i >= j && x == y) || (x != y && i >= j) || (i >= j) || (i >= j) || (i >= j) || (i >= j)",
+    "error": "None",
+    "runtime_seconds": 138.20981788635254
+  },
+  {
+    "id": "result_174",
+    "final_answer": "(x == y) || (x == y)",
+    "error": "None",
+    "runtime_seconds": 11.86863374710083
+  },
+  {
+    "id": "result_175",
+    "final_answer": "(i >= n && c >= 0 && i >= 0 && n > 0)||(i < n && c >= 0 && i >= 0 && n > 0)",
+    "error": "None",
+    "runtime_seconds": 13.307598352432251
+  },
+  {
+    "id": "result_176",
+    "final_answer": "None",
+    "error": "TimeoutError('Timeout')",
+    "runtime_seconds": 600.0
+  },
+  {
+    "id": "result_177",
+    "final_answer": "(x == y) || (x == y) || (x == y) || (x - y == 0) || (z == k && x - y == -c) || (z == k && x - y == -c) || (x - y == 0) || (x - y == 0) || (z == k && x == y) || (z == k && x == y)",
+    "error": "None",
+    "runtime_seconds": 147.13995575904846
+  },
+  {
+    "id": "result_178",
+    "final_answer": "(x >= n && x == n) || (x < n && x >= 0)",
+    "error": "None",
+    "runtime_seconds": 16.078429222106934
+  },
+  {
+    "id": "result_179",
+    "final_answer": "(x >= n && n > 0 && x == n && 0 <= m) || (0 <= m && x >= 0 && n > 0) || (x >= 0 && 0 <= m && n > 0)",
+    "error": "None",
+    "runtime_seconds": 57.30717349052429
+  },
+  {
+    "id": "result_18",
+    "final_answer": "(n <= 1 && x == 1 && m == 1) || (x >= 1 && m >= 1 && x <= n && m <= x) || (x >= 1 && m >= 1 && m <= x && x <= n)",
+    "error": "None",
+    "runtime_seconds": 32.29578900337219
+  },
+  {
+    "id": "result_180",
+    "final_answer": "(x >= n && n > 0 && m < n)||(x >= 0 && m >= 0 && x < n && x <= n && m <= x)||(x >= 0 && m >= 0 && x < n && m <= x)",
+    "error": "None",
+    "runtime_seconds": 55.6183078289032
+  },
+  {
+    "id": "result_181",
+    "final_answer": "None",
+    "error": "TimeoutError('Timeout')",
+    "runtime_seconds": 600.0
+  },
+  {
+    "id": "result_182",
+    "final_answer": "(i == n + 1 && j == n + 1 && k >= 0) || (i == j && j >= 0 && i >= 0 && j <= n + 1 && k >= 0)",
+    "error": "None",
+    "runtime_seconds": 20.17506456375122
+  },
+  {
+    "id": "result_183",
+    "final_answer": "(y == t) || (y >= t)",
+    "error": "None",
+    "runtime_seconds": 13.13712453842163
+  },
+  {
+    "id": "result_184",
+    "final_answer": "(j == i*n) || (j == i*n)",
+    "error": "None",
+    "runtime_seconds": 13.669638395309448
+  },
+  {
+    "id": "result_185",
+    "final_answer": "(j == i * n) || (j == i * n)",
+    "error": "None",
+    "runtime_seconds": 14.38274621963501
+  },
+  {
+    "id": "result_186",
+    "final_answer": "(x==0 && y==0 && z==0 && w==0)||(x>=4 && 3*x>=y && x>=0 && y>=0)||(x<4 && x>=z && w>y && 3*x>=y && w<=2*x+y && w>=0 && y>=0 && x>=0 && z>=0 && w>=0 && x>=1 && y>=2 && w<=2)||(x<4 && (x>=z || w>y) && 3*x>=y && w<=2*x+y && w>=0 && y>=0 && x>=0 && z>=0 && w>=0 && x>=1 && y>=2 && w<=2)",
+    "error": "None",
+    "runtime_seconds": 110.24602746963501
+  },
+  {
+    "id": "result_187",
+    "final_answer": "((x == 0 && y == 0 && z == 0 && w == 0)) || ((x >= 4 && z == 10 * w && y > 2 && w >= 1) || (x >= 1 && x < 4 && y >= 100 * x && z == 10 * x && w == x)) || ((false && true))",
+    "error": "None",
+    "runtime_seconds": 161.32446765899658
+  },
+  {
+    "id": "result_188",
+    "final_answer": "None",
+    "error": "TimeoutError('Timeout')",
+    "runtime_seconds": 600.0
+  },
+  {
+    "id": "result_189",
+    "final_answer": "(x >= 100 && y == 100)||(x < 100 && x < 50 && y == 50 && x >= 0 && x <= 49)||(x < 100 && x >= 50 && x <= 99 && y == x)",
+    "error": "None",
+    "runtime_seconds": 131.98597693443298
+  },
+  {
+    "id": "result_19",
+    "final_answer": "(((x >= n && m < n && x >= 0 && n >= 1 && n > 0) || (x >= n && n <= 0))) || ((x < n && m <= x && x >= 0 && n >= 1 && n > 0))",
+    "error": "None",
+    "runtime_seconds": 335.406888961792
+  },
+  {
+    "id": "result_190",
+    "final_answer": "(x >= 0 && y > 0)||(x < 0 && y > -1000)",
+    "error": "None",
+    "runtime_seconds": 15.955116271972656
+  },
+  {
+    "id": "result_191",
+    "final_answer": "(res == a + b && cnt <= 0) || (res + cnt == a + b && cnt > 0)",
+    "error": "None",
+    "runtime_seconds": 18.364944219589233
+  },
+  {
+    "id": "result_192",
+    "final_answer": "(i < n || b != 0) && i <= n || (i < n && b != 0) && i >= 0 && i <= n",
+    "error": "None",
+    "runtime_seconds": 19.95524287223816
+  },
+  {
+    "id": "result_193",
+    "final_answer": "(i < n || b != 0) && i <= n || (i < n && b != 0) && i >= 0 && i <= n",
+    "error": "None",
+    "runtime_seconds": 14.896140575408936
+  },
+  {
+    "id": "result_194",
+    "final_answer": "(x == 0 && y == 0 - z && z >= 0) || (x != 0 && y == x - z && z >= 0)",
+    "error": "None",
+    "runtime_seconds": 79.7924325466156
+  },
+  {
+    "id": "result_195",
+    "final_answer": "(j >= i && i >= 0 && j >= 0 && x >= 0 && y >= 0 && x == y)",
+    "error": "None",
+    "runtime_seconds": 33.989375591278076
+  },
+  {
+    "id": "result_196",
+    "final_answer": "(k == x + y) || (k == x + y) || (k == x + y) || (k == x + y) || (k == x + y)",
+    "error": "None",
+    "runtime_seconds": 36.86343193054199
+  },
+  {
+    "id": "result_197",
+    "final_answer": "((j >= n && m >= 0 && j >= 0)) || ((j < n && j == i && m >= 0 && j >= 0 && k == x + y)) || ((j < n && j != i && k == x + y && j >= 0 && m >= 0))",
+    "error": "None",
+    "runtime_seconds": 69.70726037025452
+  },
+  {
+    "id": "result_198",
+    "final_answer": "((j >= n && m < n && n > 0)) || ((j < n && k == x + y && m <= j && n > 0) || (n <= 0))",
+    "error": "None",
+    "runtime_seconds": 127.3277177810669
+  },
+  {
+    "id": "result_199",
+    "final_answer": "(j >= n && k == x + y && m >= 0 && (m < n || n <= 0)) || (j < n && j == i && k == x + y && m <= j && m >= 0) || (j < n && j != i && k == x + y && m <= j && m >= 0)",
+    "error": "None",
+    "runtime_seconds": 82.10996675491333
+  },
+  {
+    "id": "result_2",
+    "final_answer": "(y >= 1000 && y < 1000) || (x >= y && y >= 0 && y <= 1000 && x >= 1)",
+    "error": "None",
+    "runtime_seconds": 16.25300908088684
+  },
+  {
+    "id": "result_20",
+    "final_answer": "(x >= n && m >= 0 && x >= 0) || (x < n && m >= 0 && x >= 0) || (x < n && m >= 0 && x >= 0)",
+    "error": "None",
+    "runtime_seconds": 25.363577604293823
+  },
+  {
+    "id": "result_200",
+    "final_answer": "(x1 > 0 || x2 > 0 || x3 > 0 || (x1 <= 0 && x2 <= 0 && x3 <= 0))||(x1 + x2 + x3 >= 0)||(x1 >= 0 && x2 >= 0 && x3 >= 0)||(x1 >= 0 && x2 > 0 && x3 > 0)||(x1 >= 0 && x2 >= 0 && x3 > 0)||(x1 > 0 && x2 > 0 && x3 > 0)",
+    "error": "None",
+    "runtime_seconds": 167.3536639213562
+  },
+  {
+    "id": "result_201",
+    "final_answer": "(x >= -3 && x <= -2) || (x >= -3 && x <= 1) || (x >= -1) || (x > 1 && x < 1)",
+    "error": "None",
+    "runtime_seconds": 48.678640365600586
+  },
+  {
+    "id": "result_202",
+    "final_answer": "(y >= -3) || (y >= -3) || (y >= -3) || (x > 1 && x < 1)",
+    "error": "None",
+    "runtime_seconds": 36.305480003356934
+  },
+  {
+    "id": "result_203",
+    "final_answer": "(x <= 1 && x >= 0) || (x <= 1 && x >= -3) || (x <= 1 && y >= -3) || (x <= 1 && y >= -3)",
+    "error": "None",
+    "runtime_seconds": 67.17433142662048
+  },
+  {
+    "id": "result_204",
+    "final_answer": "(y <= 5) || (y <= 5) || (y <= 5) || (y <= 5) || (y <= 5)",
+    "error": "None",
+    "runtime_seconds": 68.13878393173218
+  },
+  {
+    "id": "result_205",
+    "final_answer": "(x == y) || (x == y)",
+    "error": "None",
+    "runtime_seconds": 12.850185871124268
+  },
+  {
+    "id": "result_206",
+    "final_answer": "true",
+    "error": "None",
+    "runtime_seconds": 156.00831151008606
+  },
+  {
+    "id": "result_207",
+    "final_answer": "(y <= 1000000) || (y > 0 && y <= 1000000)",
+    "error": "None",
+    "runtime_seconds": 20.31378483772278
+  },
+  {
+    "id": "result_208",
+    "final_answer": "(x >= 6 && x <= 6) || (x >= 0 && x <= 6)",
+    "error": "None",
+    "runtime_seconds": 15.431955099105835
+  },
+  {
+    "id": "result_209",
+    "final_answer": "(x >= 0 && y >= 0 && z >= 0) || (x >= 0 && y >= 0 && z >= 0)",
+    "error": "None",
+    "runtime_seconds": 13.43658709526062
+  },
+  {
+    "id": "result_21",
+    "final_answer": "x >= 1 && m >= 1 && m <= x && (n <= 1 || m < n)",
+    "error": "None",
+    "runtime_seconds": 366.9835548400879
+  },
+  {
+    "id": "result_210",
+    "final_answer": "(y >= 0) || (y >= 0)",
+    "error": "None",
+    "runtime_seconds": 28.67696714401245
+  },
+  {
+    "id": "result_211",
+    "final_answer": "(z >= 0) || (z >= 0)",
+    "error": "None",
+    "runtime_seconds": 11.666635751724243
+  },
+  {
+    "id": "result_212",
+    "final_answer": "(exclusive >= 0) || (exclusive >= 0) || (exclusive >= 0) || (exclusive >= 0) || (exclusive >= 0)",
+    "error": "None",
+    "runtime_seconds": 35.34065246582031
+  },
+  {
+    "id": "result_213",
+    "final_answer": "(nonexclusive + unowned >= 1 && invalid >= 1 && nonexclusive >= 0 && exclusive >= 0 && unowned >= 0)||(invalid >= 1 && nonexclusive >= 0 && unowned >= 0 && exclusive >= 0)||(invalid >= 1 && nonexclusive == 0 && unowned == 0 && exclusive == 1)||(nonexclusive >= 0 && unowned >= 0 && exclusive >= 0)||(nonexclusive >= 0 && unowned >= 0 && exclusive >= 0)",
+    "error": "None",
+    "runtime_seconds": 93.88320088386536
+  },
+  {
+    "id": "result_214",
+    "final_answer": "(unowned >= 0) || (unowned >= 0) || (unowned >= 0) || (unowned >= 0) || (unowned >= 0)",
+    "error": "None",
+    "runtime_seconds": 39.92953085899353
+  },
+  {
+    "id": "result_215",
+    "final_answer": "(invalid >= 1) || (invalid >= 1 && unowned >= 0 && nonexclusive >= 0 && exclusive >= 0) || (invalid >= 1 && nonexclusive >= 0 && unowned >= 0 && exclusive >= 0) || (invalid == 0 && nonexclusive + unowned >= 1 && exclusive >= 0) || (invalid <= 0 && nonexclusive + unowned <= 0 && exclusive >= 0)",
+    "error": "None",
+    "runtime_seconds": 87.94636631011963
+  },
+  {
+    "id": "result_216",
+    "final_answer": "((invalid + unowned + exclusive >= 1 && nonexclusive >= 0 && unowned >= 0 && exclusive >= 0)) || ((invalid >= 1 && exclusive >= 0 && nonexclusive == 0 && unowned == 0 && nonexclusive + unowned >= 0)) || ((invalid + nonexclusive + unowned + exclusive >= 1 && nonexclusive >= 0 && unowned >= 0 && exclusive >= 0)) || ((invalid < 1 && nonexclusive + unowned < 1 && nonexclusive >= 0 && unowned >= 0 && exclusive >= 0))",
+    "error": "None",
+    "runtime_seconds": 168.63532376289368
+  },
+  {
+    "id": "result_217",
+    "final_answer": "(invalid + unowned + exclusive + nonexclusive >= 1)||(invalid >= 1 && exclusive >= 0 && unowned >= 0 && nonexclusive >= 0)||(invalid >= 1)&&(invalid + unowned + exclusive + nonexclusive >= 1)||(invalid <= 0 && nonexclusive + unowned <= 0 && exclusive == 0)",
+    "error": "None",
+    "runtime_seconds": 108.20180082321167
+  },
+  {
+    "id": "result_218",
+    "final_answer": "(x % 8 == 5) || (x % 8 == 5)",
+    "error": "None",
+    "runtime_seconds": 17.199389219284058
+  },
+  {
+    "id": "result_219",
+    "final_answer": "s == 0",
+    "error": "None",
+    "runtime_seconds": 26.44281315803528
+  },
+  {
+    "id": "result_22",
+    "final_answer": "(x >= n && m >= 1 && x >= 1) || (x < n && m >= 1 && x >= 1) || (x < n && m >= 1 && x >= 1)",
+    "error": "None",
+    "runtime_seconds": 24.193525552749634
+  },
+  {
+    "id": "result_220",
+    "final_answer": "(w == x && y == z && w > 0 && y > 0) || (w == x && w > 0 && y > 0 && z > 0) || (w == x && w > 0)",
+    "error": "None",
+    "runtime_seconds": 43.128491163253784
+  },
+  {
+    "id": "result_221",
+    "final_answer": "(w == x && y == z) || (w == x && y == z) || (w == x && y == z)",
+    "error": "None",
+    "runtime_seconds": 37.99931311607361
+  },
+  {
+    "id": "result_222",
+    "final_answer": "(y == z) || (y - z == 0)",
+    "error": "None",
+    "runtime_seconds": 16.879433155059814
+  },
+  {
+    "id": "result_223",
+    "final_answer": "(x % 2 == 0) || (x % 2 == 0)",
+    "error": "None",
+    "runtime_seconds": 25.022201776504517
+  },
+  {
+    "id": "result_224",
+    "final_answer": "(x % 4 == 0) || (x % 4 == 0)",
+    "error": "None",
+    "runtime_seconds": 12.622891902923584
+  },
+  {
+    "id": "result_225",
+    "final_answer": "(x % 2 == 1) || (x % 2 == 1)",
+    "error": "None",
+    "runtime_seconds": 11.608487129211426
+  },
+  {
+    "id": "result_226",
+    "final_answer": "(y >= 1024 && x == 0) || (y < 1024 && y >= 0)",
+    "error": "None",
+    "runtime_seconds": 52.968360900878906
+  },
+  {
+    "id": "result_227",
+    "final_answer": "(x >= 99 && (x % 2) == (y % 2)) || (x < 99 && y % 2 == 0 && x % 2 == y % 2) || (x < 99 && y % 2 != 0 && x % 5 == 0 && y % 2 != 0)",
+    "error": "None",
+    "runtime_seconds": 57.34490418434143
+  },
+  {
+    "id": "result_228",
+    "final_answer": "(x >= 99 && (x % 2) == (y % 2)) || (x < 99 && y % 2 == 0 && x % 2 == 0 && x >= 0) || (x < 99 && y % 2 != 0 && x >= 0)",
+    "error": "None",
+    "runtime_seconds": 157.70790028572083
+  },
+  {
+    "id": "result_229",
+    "final_answer": "(x == 1 || x == 2) || (x == 1 || x == 2) || (x == 1 || x == 2) || (x <= 8)",
+    "error": "None",
+    "runtime_seconds": 62.759785413742065
+  },
+  {
+    "id": "result_23",
+    "final_answer": "(j < i && i + 2*j == 41 && j <= 20 && j == 13) || (j >= i && i >= 1 && j <= 20 && i + 2*j == 41)",
+    "error": "None",
+    "runtime_seconds": 239.44527649879456
+  },
+  {
+    "id": "result_230",
+    "final_answer": "(x >= 268435455 && (x % 2) == 0) || (x <= 65520) || (x >= 65520 && (x % 2) == 0)",
+    "error": "None",
+    "runtime_seconds": 39.620158195495605
+  },
+  {
+    "id": "result_231",
+    "final_answer": "(x >= 268435455 && (x % 2) == 1) || (x >= 0 && x < 65521) || (x >= 65521 && x < 268435455 && (x % 2) == 1)",
+    "error": "None",
+    "runtime_seconds": 48.17786908149719
+  },
+  {
+    "id": "result_232",
+    "final_answer": "(x >= 2 && y > 2 && x >= y && x == y) || (x >= 2 && y > 2 && x < y) || (x >= 2 && y > 2 && x < y)",
+    "error": "None",
+    "runtime_seconds": 41.96914005279541
+  },
+  {
+    "id": "result_233",
+    "final_answer": "(x % 2 == 0) || (x % 2 == 0)",
+    "error": "None",
+    "runtime_seconds": 11.362661838531494
+  },
+  {
+    "id": "result_234",
+    "final_answer": "(x % 2 == 0) || (x % 2 == 0)",
+    "error": "None",
+    "runtime_seconds": 11.248522281646729
+  },
+  {
+    "id": "result_235",
+    "final_answer": "(x % 2 == 1) || (x % 2 == 1)",
+    "error": "None",
+    "runtime_seconds": 13.4749174118042
+  },
+  {
+    "id": "result_236",
+    "final_answer": "(x % 2 == 0) || (x % 2 == 0)",
+    "error": "None",
+    "runtime_seconds": 12.268355369567871
+  },
+  {
+    "id": "result_237",
+    "final_answer": "(k == i + j && k >= 268435455) || (k == i + j && k < 268435455)",
+    "error": "None",
+    "runtime_seconds": 22.888688802719116
+  },
+  {
+    "id": "result_238",
+    "final_answer": "(k == 3 * i && j == 2 * i) || (k == 3 * i && j == 2 * i)",
+    "error": "None",
+    "runtime_seconds": 21.826343774795532
+  },
+  {
+    "id": "result_239",
+    "final_answer": "(j == 2 * i) || (j == 2 * i)",
+    "error": "None",
+    "runtime_seconds": 13.866267681121826
+  },
+  {
+    "id": "result_24",
+    "final_answer": "(j < i && j == 6) || (j >= i && i + 2 * j == 21)",
+    "error": "None",
+    "runtime_seconds": 28.780386447906494
+  },
+  {
+    "id": "result_240",
+    "final_answer": "(result >= exp && count >= 1 && x > -1.0 && x < 1.0) || (result >= exp && count >= 1 && x > -1.0 && x < 1.0)",
+    "error": "None",
+    "runtime_seconds": 21.15366244316101
+  },
+  {
+    "id": "result_241",
+    "final_answer": "(oddExp >= evenExp) || (oddExp >= evenExp) || (oddExp >= evenExp)",
+    "error": "None",
+    "runtime_seconds": 19.515075206756592
+  },
+  {
+    "id": "result_242",
+    "final_answer": "(oddExp >= evenExp) || (oddExp >= evenExp) || (oddExp >= evenExp)",
+    "error": "None",
+    "runtime_seconds": 28.42845916748047
+  },
+  {
+    "id": "result_243",
+    "final_answer": "(y == 1) || (y == 0 && x % 3 == 0) || (y == 0 && x % 3 == 0) || (y == 1 && x % 3 == 1) || (y == 1 && x % 3 == 2)",
+    "error": "None",
+    "runtime_seconds": 61.26640725135803
+  },
+  {
+    "id": "result_244",
+    "final_answer": "(a == b && a >= 0 && c == 200000 && ((st == 0 && last < c) || (st == 1 && last >= c)))",
+    "error": "None",
+    "runtime_seconds": 83.8923819065094
+  },
+  {
+    "id": "result_245",
+    "final_answer": "c == 200000 && a == b && ((st == 0 && last < c) || (st == 1 && last >= c))",
+    "error": "None",
+    "runtime_seconds": 75.92035388946533
+  },
+  {
+    "id": "result_246",
+    "final_answer": "(j >= 0) || (j >= 0)",
+    "error": "None",
+    "runtime_seconds": 13.284477949142456
+  },
+  {
+    "id": "result_247",
+    "final_answer": "(j >= 0 && j <= material_length) || (j >= 0 && j <= material_length)",
+    "error": "None",
+    "runtime_seconds": 13.91148042678833
+  },
+  {
+    "id": "result_248",
+    "final_answer": "None",
+    "error": "TimeoutError('Timeout')",
+    "runtime_seconds": 600.0
+  },
+  {
+    "id": "result_249",
+    "final_answer": "(i >= 1 && i + k >= 1)",
+    "error": "None",
+    "runtime_seconds": 46.92361640930176
+  },
+  {
+    "id": "result_25",
+    "final_answer": "(x == 0) || (x >= 0)",
+    "error": "None",
+    "runtime_seconds": 15.494008541107178
+  },
+  {
+    "id": "result_250",
+    "final_answer": "(i + k <= 2) || (i >= 1 && j >= 1 && k >= -1 && k <= 1 && i + k <= 2)",
+    "error": "None",
+    "runtime_seconds": 17.945127487182617
+  },
+  {
+    "id": "result_251",
+    "final_answer": "(i >= 1) || (i >= 1 && j >= 1 && k >= -1)",
+    "error": "None",
+    "runtime_seconds": 13.489943265914917
+  },
+  {
+    "id": "result_252",
+    "final_answer": "(a == 0 && b == 0 && i == 0 && j == 1 && i % 2 == 0) || (b == a && i == 2 * a && j == 2 * a + 1 && a >= 0 && i % 2 == 0) || (a > 1 && a < 1)",
+    "error": "None",
+    "runtime_seconds": 80.6768810749054
+  },
+  {
+    "id": "result_253",
+    "final_answer": "(a == 0 && b == 0 && i == 1 && j == 1) || (i % 2 == 0 && a >= 1 && i >= 2 && j >= 3 && j <= i + 1 && a != b && b >= 0 && b != 1 && b != 3 && b != 4 && b != 5 && b != 6 && b != 7 && b != 8 && b != 9 && b != 10 && a != 1 && a != 2 && a != 3 && a != 4 && a != 5 && a != 6 && a != 7 && a != 8 && a != 9 && a != 10 && a != 11 && a != 12 && a != 13 && b <= a + 3 && a != 14 && b != 0 && b != 2 && b != 5 && b != 8 && b != 15 && a <= 14 && i != 10) || (i % 2 != 0 && a >= 1 && b <= a && i >= 1 && j >= 1 && j <= i + 1 && a != b && (a != 1 || b != 2 || i != 4 || j != 5) && (a != 5 || b != 4 || i != 6 || j != 5))",
+    "error": "None",
+    "runtime_seconds": 208.06005764007568
+  },
+  {
+    "id": "result_254",
+    "final_answer": "(x == 100 && y <= 0) || (x >= 1 && x < 50 && y >= 1 && x == y) || (x >= 50 && y > 0 && x + y == 100)",
+    "error": "None",
+    "runtime_seconds": 78.34074997901917
+  },
+  {
+    "id": "result_255",
+    "final_answer": "(v >= 51 && v <= 52) || (v % 2 == 1 && v >= 1 && v <= 51)",
+    "error": "None",
+    "runtime_seconds": 16.53148913383484
+  },
+  {
+    "id": "result_256",
+    "final_answer": "(v >= 51) || (v >= 1)",
+    "error": "None",
+    "runtime_seconds": 14.57693886756897
+  },
+  {
+    "id": "result_257",
+    "final_answer": "(x == 0) || (x > 0)",
+    "error": "None",
+    "runtime_seconds": 14.902497291564941
+  },
+  {
+    "id": "result_258",
+    "final_answer": "(x >= 0) || (x == 0) || (x >= 0) || (x >= 0)",
+    "error": "None",
+    "runtime_seconds": 44.1946337223053
+  },
+  {
+    "id": "result_259",
+    "final_answer": "(x == 0) || (x == 0) || (x >= 0 && x <= 40) || (x >= 0 && x <= 40)",
+    "error": "None",
+    "runtime_seconds": 39.447556495666504
+  },
+  {
+    "id": "result_26",
+    "final_answer": "(x == n && x <= 1) || (x <= n && x > 0)",
+    "error": "None",
+    "runtime_seconds": 37.291799545288086
+  },
+  {
+    "id": "result_260",
+    "final_answer": "(x <= 1) || (x <= 1) || (x <= 1)",
+    "error": "None",
+    "runtime_seconds": 51.62434482574463
+  },
+  {
+    "id": "result_261",
+    "final_answer": "(x >= 0) || (x >= 0) || (x >= 0)",
+    "error": "None",
+    "runtime_seconds": 26.131494283676147
+  },
+  {
+    "id": "result_262",
+    "final_answer": "(sum == n * (n - 1) / 2 && i == n) || (sum == i * (i - 1) / 2 && i >= 0 && i <= n)",
+    "error": "None",
+    "runtime_seconds": 28.124401807785034
+  },
+  {
+    "id": "result_263",
+    "final_answer": "(i >= 2 * k && n == k && i >= 0 && k >= 0) || (i < 2 * k && i % 2 == 0 && n == i / 2 && i >= 0) || (i < 2 * k && i % 2 != 0 && n == (i + 1) / 2 && i >= 1)",
+    "error": "None",
+    "runtime_seconds": 51.06989789009094
+  },
+  {
+    "id": "result_264",
+    "final_answer": "y >= 1 && x >= 1",
+    "error": "None",
+    "runtime_seconds": 16.744747400283813
+  },
+  {
+    "id": "result_265",
+    "final_answer": "(l >= 1) || (l >= 1)",
+    "error": "None",
+    "runtime_seconds": 11.148711204528809
+  },
+  {
+    "id": "result_266",
+    "final_answer": "(x == 0 && y == 0 && i == 0 && j == 0) || (j >= i && x == y && y >= 0 && i >= 0) || (j == i && x == y && x >= 0 && i >= 0)",
+    "error": "None",
+    "runtime_seconds": 41.88833665847778
+  },
+  {
+    "id": "result_267",
+    "final_answer": "(j > n - 1 && k >= 0) || (j <= n - 1 && k + j >= n && j >= 0 && n >= 1)",
+    "error": "None",
+    "runtime_seconds": 19.05179786682129
+  },
+  {
+    "id": "result_268",
+    "final_answer": "(x >= n && y == n) || (x < n && x > y && y == n - 1) || (x < n && x <= y && x <= y && y < n)",
+    "error": "None",
+    "runtime_seconds": 54.60844039916992
+  },
+  {
+    "id": "result_269",
+    "final_answer": "(i >= n && sum >= 0) || (i < n && sum >= 0 && i >= 0)",
+    "error": "None",
+    "runtime_seconds": 13.732222557067871
+  },
+  {
+    "id": "result_27",
+    "final_answer": "(x == n) || (x > 0)",
+    "error": "None",
+    "runtime_seconds": 29.59584951400757
+  },
+  {
+    "id": "result_270",
+    "final_answer": "(x == y && y >= 0) || (x == y)",
+    "error": "None",
+    "runtime_seconds": 21.46332097053528
+  },
+  {
+    "id": "result_271",
+    "final_answer": "(y == t) || (y >= t) || (y == t)",
+    "error": "None",
+    "runtime_seconds": 22.414036989212036
+  },
+  {
+    "id": "result_272",
+    "final_answer": "(i == j) || (i == j)",
+    "error": "None",
+    "runtime_seconds": 13.127547025680542
+  },
+  {
+    "id": "result_273",
+    "final_answer": "(i >= 0 && i <= 200) || (i >= 0 && i <= 200)",
+    "error": "None",
+    "runtime_seconds": 15.860542297363281
+  },
+  {
+    "id": "result_274",
+    "final_answer": "(k >= n) || (k == i)",
+    "error": "None",
+    "runtime_seconds": 12.668824434280396
+  },
+  {
+    "id": "result_275",
+    "final_answer": "(x + y > -2 && (x > 0 || y > 0)) || (x + y <= -2 && x > 0) || (x + y <= -2 && x <= 0 && y > 0)",
+    "error": "None",
+    "runtime_seconds": 97.77916693687439
+  },
+  {
+    "id": "result_276",
+    "final_answer": "(i >= 100 && j == 2 * i && i <= 100) || (i < 100 && j == 2 * i)",
+    "error": "None",
+    "runtime_seconds": 20.47935199737549
+  },
+  {
+    "id": "result_277",
+    "final_answer": "(i >= n && 2 * k >= n - 1) || (i < n && k == n - i / 2 && i >= 0 && n >= 0)",
+    "error": "None",
+    "runtime_seconds": 36.414491415023804
+  },
+  {
+    "id": "result_278",
+    "final_answer": "(k > 0) || (k > i - j)",
+    "error": "None",
+    "runtime_seconds": 13.298155784606934
+  },
+  {
+    "id": "result_279",
+    "final_answer": "((i >= 1 && j >= 1 && i >= j && i == j)) || ((i >= 1 && j >= 1 && i < j && j >= i && i * i < j * j))",
+    "error": "None",
+    "runtime_seconds": 55.60708403587341
+  },
+  {
+    "id": "result_28",
+    "final_answer": "(x == n) || (x >= 0 && x <= n)",
+    "error": "None",
+    "runtime_seconds": 26.871589183807373
+  },
+  {
+    "id": "result_280",
+    "final_answer": "(x >= y) || (x < y + 100)",
+    "error": "None",
+    "runtime_seconds": 15.387630462646484
+  },
+  {
+    "id": "result_281",
+    "final_answer": "(x >= y && y <= 20000001 && x <= y + 99) || (x < y && y <= 20000001)",
+    "error": "None",
+    "runtime_seconds": 20.72974157333374
+  },
+  {
+    "id": "result_282",
+    "final_answer": "(k == n - i && i >= 0 && k >= 0) || (k == n - i && i >= 0 && k >= 0)",
+    "error": "None",
+    "runtime_seconds": 22.94783639907837
+  },
+  {
+    "id": "result_283",
+    "final_answer": "(x == 4 * y) || (x == 4 * y)",
+    "error": "None",
+    "runtime_seconds": 13.64920711517334
+  },
+  {
+    "id": "result_284",
+    "final_answer": "(x <= 0 && y >= 0) || (x > 0 && x == 4 * y && y >= 0)",
+    "error": "None",
+    "runtime_seconds": 17.565973043441772
+  },
+  {
+    "id": "result_285",
+    "final_answer": "(x == 0 && y == 0 && z == 0) || (x + y + z == 0)",
+    "error": "None",
+    "runtime_seconds": 16.543628454208374
+  },
+  {
+    "id": "result_286",
+    "final_answer": "(x + y + z == 0 && x == y && x >= 0) || (x + y + z == 0 && x == y && x >= 0)",
+    "error": "None",
+    "runtime_seconds": 23.507057428359985
+  },
+  {
+    "id": "result_287",
+    "final_answer": "(x <= 100 && y <= 100) || (x <= 100 && y <= 100 && x == y)",
+    "error": "None",
+    "runtime_seconds": 12.579508781433105
+  },
+  {
+    "id": "result_288",
+    "final_answer": "(x >= y) || (x <= y + 3) || (x <= y + 3 && y <= 20000001) || (y <= 20000001)",
+    "error": "None",
+    "runtime_seconds": 73.0944414138794
+  },
+  {
+    "id": "result_289",
+    "final_answer": "(x <= y + 16) || (x <= y + 16) || (x <= y + 16) || (x <= y + 16)",
+    "error": "None",
+    "runtime_seconds": 49.922250747680664
+  },
+  {
+    "id": "result_29",
+    "final_answer": "(x == n && x <= 0) || (x >= 0 && x <= n)",
+    "error": "None",
+    "runtime_seconds": 25.276151180267334
+  },
+  {
+    "id": "result_290",
+    "final_answer": "(x <= y + 16) || (x < y && x < 0 && y < 0) || (x <= y + 16) || (x >= 0 && y < 0 && x <= y + 16) || (x >= 0 && y >= 0 && x <= y + 16)",
+    "error": "None",
+    "runtime_seconds": 74.25356554985046
+  },
+  {
+    "id": "result_291",
+    "final_answer": "(x >= y) || (x <= y - 1 && x <= -1 && y <= -1) || (x <= y - 1 && x <= -1 && y >= 0) || (x <= y - 1) || (x >= 0 && y >= 0 && x <= y - 1)",
+    "error": "None",
+    "runtime_seconds": 80.13174939155579
+  },
+  {
+    "id": "result_292",
+    "final_answer": "(k > j - i) || (k > 0)",
+    "error": "None",
+    "runtime_seconds": 11.961822748184204
+  },
+  {
+    "id": "result_293",
+    "final_answer": "(r > i + j) || (r > i + j)",
+    "error": "None",
+    "runtime_seconds": 12.023072719573975
+  },
+  {
+    "id": "result_294",
+    "final_answer": "(ya >= 0) || (xa + ya > 0)",
+    "error": "None",
+    "runtime_seconds": 12.532748937606812
+  },
+  {
+    "id": "result_295",
+    "final_answer": "(x == 100000000) || (x <= 10000000) || (x >= 10000000 && x <= 100000000 && (x - 10000000) % 2 == 0)",
+    "error": "None",
+    "runtime_seconds": 41.70767903327942
+  },
+  {
+    "id": "result_296",
+    "final_answer": "(x >= 1000000 && x == 1000000 && y == 0)||(x < 1000000 && x < 500000 && x == y)||(x < 1000000 && x >= 500000 && x + y == 1000000)",
+    "error": "None",
+    "runtime_seconds": 39.95564246177673
+  },
+  {
+    "id": "result_297",
+    "final_answer": "(x >= 1000000 && y == x)||(x < 1000000 && x < 500000 && y == 500000 && x >= 0)||(x < 1000000 && x >= 500000 && y == x && x >= 500000)",
+    "error": "None",
+    "runtime_seconds": 45.13718271255493
+  },
+  {
+    "id": "result_298",
+    "final_answer": "(x >= 10000000 && z == 0) || (x < 10000000 && x >= 5000000 && z == 10000000 - x) || (x < 10000000 && x < 5000000 && z == 5000000)",
+    "error": "None",
+    "runtime_seconds": 46.403783559799194
+  },
+  {
+    "id": "result_299",
+    "final_answer": "(x >= 10000000 && z == x) || (x < 10000000 && x >= 5000000 && z == x) || (x < 10000000 && x < 5000000 && z == 5000000 && x >= 0)",
+    "error": "None",
+    "runtime_seconds": 46.510342836380005
+  },
+  {
+    "id": "result_3",
+    "final_answer": "(x>=5 && x==5 && z>=y)||(x<5 && z<=y && x>=0)||(x<5 && z>y && z>=y && x>=0)",
+    "error": "None",
+    "runtime_seconds": 64.65043783187866
+  },
+  {
+    "id": "result_30",
+    "final_answer": "(x == 0) || (x >= 0)",
+    "error": "None",
+    "runtime_seconds": 14.2897629737854
+  },
+  {
+    "id": "result_300",
+    "final_answer": "None",
+    "error": "TimeoutError('Timeout')",
+    "runtime_seconds": 600.0
+  },
+  {
+    "id": "result_301",
+    "final_answer": "(i % 3 == 0) || (i % 3 == 0) || (i % 3 == 0)",
+    "error": "None",
+    "runtime_seconds": 18.172157049179077
+  },
+  {
+    "id": "result_302",
+    "final_answer": "(i % 4 == 0) || (i % 4 == 0) || (i % 4 == 0)",
+    "error": "None",
+    "runtime_seconds": 26.607882499694824
+  },
+  {
+    "id": "result_303",
+    "final_answer": "(x >= 100000000 && x % 2 == 0) || (x >= 0 && x <= 10000000) || (x >= 10000000 && x % 2 == 0)",
+    "error": "None",
+    "runtime_seconds": 44.18910765647888
+  },
+  {
+    "id": "result_304",
+    "final_answer": "(z % 2 == 0) || (z % 2 == 0) || (z == 0)",
+    "error": "None",
+    "runtime_seconds": 27.215575456619263
+  },
+  {
+    "id": "result_305",
+    "final_answer": "(x >= 1000000 && x <= 1000000) || ((x < 1000000) && (x < 750000) && x >= 0 && x <= 750000) || ((x < 1000000) && (x >= 750000) && x >= 750000 && x <= 1000000 && (x - 750000) % 2 == 0)",
+    "error": "None",
+    "runtime_seconds": 33.77095890045166
+  },
+  {
+    "id": "result_306",
+    "final_answer": "(i + j == l) || (i + j == l && i >= j) || (i + j == l && j == i + 1)",
+    "error": "None",
+    "runtime_seconds": 42.02501082420349
+  },
+  {
+    "id": "result_307",
+    "final_answer": "(i + j + k == l) || (i + j + k == l) || (i + j + k == l) || (i + j + k == l)",
+    "error": "None",
+    "runtime_seconds": 31.020366430282593
+  },
+  {
+    "id": "result_308",
+    "final_answer": "((i + j + k + v4) == l) || ((i + j + k + v4) == l) || ((i + j + k + v4) == l) || ((i + j + k + v4) == l) || ((i + j + k + v4) == l)",
+    "error": "None",
+    "runtime_seconds": 36.78116822242737
+  },
+  {
+    "id": "result_309",
+    "final_answer": "((i + j + k + v4 + v3) == l) || ((i + j + k + v4 + v3) == l) || ((i + j + k + v4 + v3) == l) || ((i + j + k + v4 + v3) == l) || ((i + j + k + v4 + v3) == l) || ((i + j + k + v4 + v3) == l)",
+    "error": "None",
+    "runtime_seconds": 91.95576477050781
+  },
+  {
+    "id": "result_31",
+    "final_answer": "(x == n && x <= 1) || (x <= n && x > 0)",
+    "error": "None",
+    "runtime_seconds": 29.1384117603302
+  },
+  {
+    "id": "result_310",
+    "final_answer": "((i + j + k + v4 + v3 + v2) == l) || ((i + j + k + v4 + v3 + v2) == l) || ((i + j + k + v4 + v3 + v2) == l) || ((i + j + k + v4 + v3 + v2) == l) || ((i + j + k + v4 + v3 + v2) == l) || ((i + j + k + v4 + v3 + v2) == l) || ((i + j + k + v4 + v3 + v2) == l)",
+    "error": "None",
+    "runtime_seconds": 107.45889663696289
+  },
+  {
+    "id": "result_311",
+    "final_answer": "((i + j + k + v4 + v3 + v2 + v1) == l) || ((i + j + k + v4 + v3 + v2 + v1) == l && l >= 0) || ((i + j + k + v4 + v3 + v2 + v1) == l && l >= 0) || ((i + j + k + v4 + v3 + v2 + v1) == l && l >= 0) || ((i + j + k + v4 + v3 + v2 + v1) == l && l >= 0) || ((i + j + k + v4 + v3 + v2 + v1) == l && l >= 0) || ((i + j + k + v4 + v3 + v2 + v1) == l && l >= 0) || ((i + j + k + v4 + v3 + v2 + v1) == l && l >= 0)",
+    "error": "None",
+    "runtime_seconds": 128.32226586341858
+  },
+  {
+    "id": "result_312",
+    "final_answer": "((i + j + k + v4 + v3 + v2 + v1 + v5) == l) || ((i + j + k + v4 + v3 + v2 + v1 + v5) == l) || ((i + j + k + v4 + v3 + v2 + v1 + v5) == l) || ((i + j + k + v4 + v3 + v2 + v1 + v5) == l) || ((i + j + k + v4 + v3 + v2 + v1 + v5) == l) || ((i + j + k + v4 + v3 + v2 + v1 + v5) == l) || ((i + j + k + v4 + v3 + v2 + v1 + v5) == l) || ((i + j + k + v4 + v3 + v2 + v1 + v5) == l) || ((i + j + k + v4 + v3 + v2 + v1 + v5) == l)",
+    "error": "None",
+    "runtime_seconds": 136.20058584213257
+  },
+  {
+    "id": "result_313",
+    "final_answer": "((i + j + k + v4 + v3 + v2 + v1 + v5 + v6) == l) || ((i + j + k + v4 + v3 + v2 + v1 + v5 + v6) + 1 == l + 1) || (i + j + k + v4 + v3 + v2 + v1 + v5 + v6 + 1 == l + 1) || (i + j + k + v4 + v3 + v2 + v1 + v5 + v6 + 1 == l + 1) || (i + j + k + v4 + v3 + v2 + v1 + v5 + v6 + 1 == l + 1) || (i + j + k + v4 + v3 + v2 + v1 + v5 + v6 + 1 == l + 1) || (i + j + k + v4 + v3 + v2 + v1 + v5 + v6 + 1 == l + 1) || (i + j + k + v4 + v3 + v2 + v1 + v5 + v6 + 1 == l + 1) || (i + j + k + v4 + v3 + v2 + v1 + v5 + v6 + 1 == l + 1) || (i + j + k + v4 + v3 + v2 + v1 + v5 + v6 + 1 == l + 1)",
+    "error": "None",
+    "runtime_seconds": 187.76141262054443
+  },
+  {
+    "id": "result_314",
+    "final_answer": "(i == j) || (i == j)",
+    "error": "None",
+    "runtime_seconds": 13.824469089508057
+  },
+  {
+    "id": "result_315",
+    "final_answer": "(k == j) || (k == j)",
+    "error": "None",
+    "runtime_seconds": 12.277983903884888
+  },
+  {
+    "id": "result_316",
+    "final_answer": "(i >= n && j == i && k == i && n > 0 && n <= 20000001 && i >= 0 && i % 3 == 0 && i < 20000003) || (i < n && i >= 0 && j == i && k == i && n > 0 && n <= 20000001 && i % 3 == 0)",
+    "error": "None",
+    "runtime_seconds": 44.99413800239563
+  },
+  {
+    "id": "result_32",
+    "final_answer": "(x == n) || (x >= 1)",
+    "error": "None",
+    "runtime_seconds": 21.505043268203735
+  },
+  {
+    "id": "result_33",
+    "final_answer": "(x == n && x <= 0) || (x <= n && x >= 0)",
+    "error": "None",
+    "runtime_seconds": 22.223552703857422
+  },
+  {
+    "id": "result_34",
+    "final_answer": "(x == n && x <= 0) || (x <= n && x >= 0)",
+    "error": "None",
+    "runtime_seconds": 20.02080798149109
+  },
+  {
+    "id": "result_35",
+    "final_answer": "(c == 0) || (c >= 0) || (c == 40) || (c == 40) || (c >= 0)",
+    "error": "None",
+    "runtime_seconds": 58.07638931274414
+  },
+  {
+    "id": "result_36",
+    "final_answer": "(c == 0) || (c >= 0 && c <= 40) || (c == 40) || (c == 40) || (c >= 0 && c <= 40)",
+    "error": "None",
+    "runtime_seconds": 78.31922602653503
+  },
+  {
+    "id": "result_37",
+    "final_answer": "(c == 0) || (c >= 0 && c <= 40) || (c == 40) || (c == 40) || (c >= 0 && c <= 40)",
+    "error": "None",
+    "runtime_seconds": 60.00283193588257
+  },
+  {
+    "id": "result_38",
+    "final_answer": "(c >= 0) || (c == n && c >= 0) || (c >= 0)",
+    "error": "None",
+    "runtime_seconds": 33.93451929092407
+  },
+  {
+    "id": "result_39",
+    "final_answer": "(c >= 0) || (c >= 1 && c <= n) || (c >= 1 && c <= n)",
+    "error": "None",
+    "runtime_seconds": 45.38276147842407
+  },
+  {
+    "id": "result_4",
+    "final_answer": "(x >= 500 && y <= z)||(x < 500 && z <= y && x >= 0)||(x < 500 && z > y && x >= 0)",
+    "error": "None",
+    "runtime_seconds": 34.08614230155945
+  },
+  {
+    "id": "result_40",
+    "final_answer": "(c == 0)||(c > n && c >= 0)||(c <= n && c >= 0)||(c == n && c >= 0)||(c != n && c >= 0)",
+    "error": "None",
+    "runtime_seconds": 67.60156655311584
+  },
+  {
+    "id": "result_41",
+    "final_answer": "((c == 0 && n > 0)) || ((c > n && n > 0 && c <= n)) || ((c <= n && n > 0))",
+    "error": "None",
+    "runtime_seconds": 67.19150424003601
+  },
+  {
+    "id": "result_42",
+    "final_answer": "(c == 0 && n > 0) || (c >= 0 && n > 0) || (n > 0) || (c >= 0 && n > 0) || (n > 0)",
+    "error": "None",
+    "runtime_seconds": 70.60154008865356
+  },
+  {
+    "id": "result_43",
+    "final_answer": "(c == 0) || (c > n) || (c <= n && n >= 0) || (c == n && n > -1) || (c != n && c > -1)",
+    "error": "None",
+    "runtime_seconds": 66.6551501750946
+  },
+  {
+    "id": "result_44",
+    "final_answer": "(c == 0)||(c > n)||(c <= n)||(c == n)&&(c != n)",
+    "error": "None",
+    "runtime_seconds": 64.23214721679688
+  },
+  {
+    "id": "result_45",
+    "final_answer": "(c == 0) || (c >= 0) || (c == n) || (c >= 0) || (c >= 0)",
+    "error": "None",
+    "runtime_seconds": 68.01472544670105
+  },
+  {
+    "id": "result_46",
+    "final_answer": "(c == 0 && n > 0) || (c <= n && n > 0) || (c == n && n > 0) || (c == n && n > 0) || (c <= n && n > 0)",
+    "error": "None",
+    "runtime_seconds": 75.37574625015259
+  },
+  {
+    "id": "result_47",
+    "final_answer": "(c == 0) || (c >= 0) || (c >= 0) || (c >= 0) || (c >= 0)",
+    "error": "None",
+    "runtime_seconds": 54.76576852798462
+  },
+  {
+    "id": "result_48",
+    "final_answer": "(c == 0 && n > 0) || (c >= 0 && n > 0) || (c == n && n > 0) || (c == n && n > 0) || (c != n && c >= 0 && n > 0)",
+    "error": "None",
+    "runtime_seconds": 72.11684989929199
+  },
+  {
+    "id": "result_49",
+    "final_answer": "(c >= 0) || (c >= 0) || (c == n && c >= 0) || (c >= 0) || (c >= 0)",
+    "error": "None",
+    "runtime_seconds": 69.46836471557617
+  },
+  {
+    "id": "result_5",
+    "final_answer": "(x >= size && (size <= 0 || z >= y)) || ((x < size && z <= y) && (x >= 0 && x <= size && z <= y)) || ((x < size && z > y) && (x >= 0 && x <= size && z > y))",
+    "error": "None",
+    "runtime_seconds": 35.38202953338623
+  },
+  {
+    "id": "result_50",
+    "final_answer": "(c == 0) || (c >= 0) || (c == 4) || (c == 4) || (c >= 0)",
+    "error": "None",
+    "runtime_seconds": 49.52448010444641
+  },
+  {
+    "id": "result_51",
+    "final_answer": "(c == 0) || (c <= 4) || (c == 4) || (c == 4) || (c <= 4)",
+    "error": "None",
+    "runtime_seconds": 60.78680872917175
+  },
+  {
+    "id": "result_52",
+    "final_answer": "(c == 0) || (c >= 0 && c <= 4) || (c == 4) || (c == 4) || (c >= 0 && c <= 4)",
+    "error": "None",
+    "runtime_seconds": 74.50206971168518
+  },
+  {
+    "id": "result_53",
+    "final_answer": "(c == 0) || (c >= 0) || (c >= 0) || (c == n) || (c >= 0)",
+    "error": "None",
+    "runtime_seconds": 67.30930495262146
+  },
+  {
+    "id": "result_54",
+    "final_answer": "(c == 0 && n > 0) || (c > n && n >= 0 && c <= 1 && n > 0) || (c <= n && n >= 0 && c != 2 && n != 1 && n > 0) || (c >= 0 && c == n && n > 0) || (c != n && n >= 0 && c != 1 && c != 2 && n != 0 && c <= n && n > 0)",
+    "error": "None",
+    "runtime_seconds": 82.60486078262329
+  },
+  {
+    "id": "result_55",
+    "final_answer": "(c == 0 && n > 0) || (c > n && n > 0) || (c <= n && n > 0) || (c == n && n > 0) || (c != n && n > 0)",
+    "error": "None",
+    "runtime_seconds": 72.00419116020203
+  },
+  {
+    "id": "result_56",
+    "final_answer": "(c == 0 && n > 0)||(c > n)||(c <= n && n > 1 && (c != 2 || n != 2) && (c != 3 || n != 3) && c != n)||(c >= 0 && c != n && n != 0 && c != 0 && c != 1 && c != 2 && n != 2 && (c != 2 || n != 2) && c != 3 && n != 3 && (c != 3 || n != 3))||(c != n && n != 0 && c != 0 && c != 1)",
+    "error": "None",
+    "runtime_seconds": 115.8039960861206
+  },
+  {
+    "id": "result_57",
+    "final_answer": "(c == 0 && n > 0)||(c > n && n > 0)||(c < n && n > 0)||(c == 1 && n > 1)||(c != n && n > 0)",
+    "error": "None",
+    "runtime_seconds": 94.37487173080444
+  },
+  {
+    "id": "result_58",
+    "final_answer": "(c == 1) || (c >= 0) || (c == n) || (c == n) || (c >= 0)",
+    "error": "None",
+    "runtime_seconds": 56.71170115470886
+  },
+  {
+    "id": "result_59",
+    "final_answer": "(c == 0 && n > 0) || (c >= 0 && c <= n && n > 0) || (c == n && n > 0)",
+    "error": "None",
+    "runtime_seconds": 67.04630064964294
+  },
+  {
+    "id": "result_6",
+    "final_answer": "(x >= size && (size <= 0 || z >= y)) || (x < size && z <= y && x >= 0 && x <= size) || (x < size && z > y && x >= 0 && x <= size)",
+    "error": "None",
+    "runtime_seconds": 41.60826110839844
+  },
+  {
+    "id": "result_60",
+    "final_answer": "(c >= 0) || (c >= 0) || (c == n && c >= 0) || (c == n && c >= 0) || (c >= 0)",
+    "error": "None",
+    "runtime_seconds": 57.07004380226135
+  },
+  {
+    "id": "result_61",
+    "final_answer": "(n > 0) || (c >= 0 && n > 0) || (c == n && n > 0) || (c == n && n > 0) || (c >= 0 && n > 0)",
+    "error": "None",
+    "runtime_seconds": 89.03139805793762
+  },
+  {
+    "id": "result_62",
+    "final_answer": "(c == 0) || (c >= 0) || (c >= 0) || (c == 1) || (c >= 0)",
+    "error": "None",
+    "runtime_seconds": 57.74796748161316
+  },
+  {
+    "id": "result_63",
+    "final_answer": "(x > 10 && y >= 0 && y == 10 - (x - 1) && y <= 10 && x >= 1 && y < 10) || (x <= 10 && x >= 1)",
+    "error": "None",
+    "runtime_seconds": 185.2216477394104
+  },
+  {
+    "id": "result_64",
+    "final_answer": "(x > 10 && y >= 0 && y < 10 && y == 10 - (x - 1) && y != 10) || (x <= 10 && x >= 1)",
+    "error": "None",
+    "runtime_seconds": 98.65538191795349
+  },
+  {
+    "id": "result_65",
+    "final_answer": "(x > 100 && x >= 101 && y >= 0 && y == 100 - (x - 1)) || (x <= 100 && x >= 1)",
+    "error": "None",
+    "runtime_seconds": 127.44788694381714
+  },
+  {
+    "id": "result_66",
+    "final_answer": "(x > 100 && y < 100 && y == 101 - x) || (x <= 100)",
+    "error": "None",
+    "runtime_seconds": 52.350778579711914
+  },
+  {
+    "id": "result_67",
+    "final_answer": "(x > n && (n <= 0 || y >= 0)) || (x <= n && x >= 1)",
+    "error": "None",
+    "runtime_seconds": 262.0857949256897
+  },
+  {
+    "id": "result_68",
+    "final_answer": "(x <= 1) || (y <= n)",
+    "error": "None",
+    "runtime_seconds": 73.62026262283325
+  },
+  {
+    "id": "result_69",
+    "final_answer": "(x > n && x >= n + 1 && (n <= 0 || y >= 0)) || (x <= n && x >= 1 && n > 0)",
+    "error": "None",
+    "runtime_seconds": 136.2208333015442
+  },
+  {
+    "id": "result_7",
+    "final_answer": "x >= 0 && y >= 0 && (x != 20 || y != 0)",
+    "error": "None",
+    "runtime_seconds": 38.51658749580383
+  },
+  {
+    "id": "result_70",
+    "final_answer": "(x == 1) || (x > n && y == n - (x - 1)) || (x <= n && x >= 1 && y == n - (x - 1))",
+    "error": "None",
+    "runtime_seconds": 135.21268701553345
+  },
+  {
+    "id": "result_71",
+    "final_answer": "(z == 36 * y && y >= 0 && y <= 127 && c == 0) || (z == 36 * y + c && y >= 0 && y <= 127 && c >= 0 && c <= 36) || (z == 36 * y + 36 && y >= 0 && y <= 127 && c >= 36)",
+    "error": "None",
+    "runtime_seconds": 54.95094013214111
+  },
+  {
+    "id": "result_72",
+    "final_answer": "(c == 0 && z == 36 * y && y >= 0 && y <= 127) || (c >= 0 && c <= 36 && z == 36 * y + c && y >= 0 && y <= 127) || (c >= 36 && z >= 36 * y && y >= 0 && y <= 127)",
+    "error": "None",
+    "runtime_seconds": 49.96423816680908
+  },
+  {
+    "id": "result_73",
+    "final_answer": "(c == 0 && z == 36 * y) || (c >= 0 && c <= 36 && z == 36 * y + c) || (c >= 36 && z == 36 * y + c)",
+    "error": "None",
+    "runtime_seconds": 33.39822721481323
+  },
+  {
+    "id": "result_74",
+    "final_answer": "(z == 36 * y && c == 0 && y >= 0 && y <= 127) || (z >= 0 && c >= 0 && c <= 36 && z >= 36 * y && z - 36 * y == c) || (c >= 36 && z >= 0 && y >= 0 && y <= 127)",
+    "error": "None",
+    "runtime_seconds": 67.99725270271301
+  },
+  {
+    "id": "result_75",
+    "final_answer": "(c == 0 && z == 36 * y && y >= 0 && y <= 127) || (c >= 0 && c <= 36 && z == 36 * y + c && y >= 0 && y <= 127) || (c >= 36 && z >= 36 * y && y >= 0 && y <= 127)",
+    "error": "None",
+    "runtime_seconds": 47.31849241256714
+  },
+  {
+    "id": "result_76",
+    "final_answer": "(c == 0 && z == 36 * y) || (c >= 0 && c <= 36 && z == 36 * y + c) || (c >= 36)",
+    "error": "None",
+    "runtime_seconds": 42.3648099899292
+  },
+  {
+    "id": "result_77",
+    "final_answer": "(i >= 0 && x >= y && y >= 0) || (i >= 0 && x >= y && y >= 0 && i <= y) || (i >= 0 && x >= y && y >= 0 && i >= y)",
+    "error": "None",
+    "runtime_seconds": 25.004456996917725
+  },
+  {
+    "id": "result_78",
+    "final_answer": "(i >= 0) || (i >= 0) || (i >= 0 && y >= 0)",
+    "error": "None",
+    "runtime_seconds": 47.852322816848755
+  },
+  {
+    "id": "result_79",
+    "final_answer": "(i >= 0 && x >= y && y >= 0) || (i >= 0 && i <= y && x >= y && y >= 0) || (i >= 0 && x >= y && y >= 0 && i >= y)",
+    "error": "None",
+    "runtime_seconds": 42.93032240867615
+  },
+  {
+    "id": "result_8",
+    "final_answer": "((x >= 0 && x <= 20 && y >= 0 && y <= 20 && (y != 0 || x != 20)) || (x >= 0 && y >= 0 && (y != 0 || x != 20)))",
+    "error": "None",
+    "runtime_seconds": 22.640179872512817
+  },
+  {
+    "id": "result_80",
+    "final_answer": "(i == 0 && x >= y && y >= 0) || (i >= 0 && i <= y && x >= y && y >= 0) || (i >= y && x >= y && y >= 0)",
+    "error": "None",
+    "runtime_seconds": 43.03346920013428
+  },
+  {
+    "id": "result_81",
+    "final_answer": "(i == 0 && x >= y && y >= 0) || (i >= 0 && i <= y && x >= y && y >= 0) || (i >= 0 && x >= y && y >= 0)",
+    "error": "None",
+    "runtime_seconds": 42.85541820526123
+  },
+  {
+    "id": "result_82",
+    "final_answer": "(i >= 0 && x >= y && y >= 0) || (i >= 0 && x >= y && y >= 0 && i <= y) || (i >= 0 && x >= y && y >= 0)",
+    "error": "None",
+    "runtime_seconds": 46.63498306274414
+  },
+  {
+    "id": "result_83",
+    "final_answer": "(y > 0) || (x <= -5000)",
+    "error": "None",
+    "runtime_seconds": 14.013444662094116
+  },
+  {
+    "id": "result_84",
+    "final_answer": "(x >= 0 && y > 0) || (x < 0)",
+    "error": "None",
+    "runtime_seconds": 40.491992235183716
+  },
+  {
+    "id": "result_85",
+    "final_answer": "(x >= 0 && y > 0)||(x < 0)",
+    "error": "None",
+    "runtime_seconds": 13.044140338897705
+  },
+  {
+    "id": "result_86",
+    "final_answer": "(x >= 0 && y > 0)||(x < 0)",
+    "error": "None",
+    "runtime_seconds": 10.27413558959961
+  },
+  {
+    "id": "result_87",
+    "final_answer": "(x == y && lock == 1)||(x == y && lock == 1)||(x == y && lock == 0 && x != y)",
+    "error": "None",
+    "runtime_seconds": 25.91476559638977
+  },
+  {
+    "id": "result_88",
+    "final_answer": "(x == y && lock == 1) || (x != y && lock == 1) || (x != y && lock == 0)",
+    "error": "None",
+    "runtime_seconds": 30.353137969970703
+  },
+  {
+    "id": "result_89",
+    "final_answer": "(x == y && lock == 1) || (x != y && lock == 1) || (x != y && lock == 0)",
+    "error": "None",
+    "runtime_seconds": 24.096805810928345
+  },
+  {
+    "id": "result_9",
+    "final_answer": "(x >= 0 && y >= 0 && x - y <= 2 && x - y >= -2)",
+    "error": "None",
+    "runtime_seconds": 166.1518828868866
+  },
+  {
+    "id": "result_90",
+    "final_answer": "(x == y && lock == 1) || (x != y && lock == 1) || (x != y && lock == 0)",
+    "error": "None",
+    "runtime_seconds": 23.906981706619263
+  },
+  {
+    "id": "result_91",
+    "final_answer": "(y < 0 && y < 0 && 0 == 1)||(y >= 0 && y >= 0 && x == 0 && y >= 0 && y == 0)",
+    "error": "None",
+    "runtime_seconds": 54.17658448219299
+  },
+  {
+    "id": "result_92",
+    "final_answer": "(y < 0 && 0 == 1) || (y >= 0 && x >= 0)",
+    "error": "None",
+    "runtime_seconds": 12.158329010009766
+  },
+  {
+    "id": "result_93",
+    "final_answer": "(i >= n && 3 * i == x + y && n >= 0 && i >= 0 && i <= n) || (i < n && 3 * i == x + y && n >= 0 && i >= 0)",
+    "error": "None",
+    "runtime_seconds": 47.68009686470032
+  },
+  {
+    "id": "result_94",
+    "final_answer": "(i > n && j >= 0 && i >= 0 && n >= 0 && k >= 0 && j == (i * (i + 1)) / 2)||(i <= n && i >= 0 && j >= 0 && j == (i * (i + 1)) / 2 && n >= 0 && k >= 0)",
+    "error": "None",
+    "runtime_seconds": 34.1587073802948
+  },
+  {
+    "id": "result_95",
+    "final_answer": "(i > x && i == j)||(i <= x && j == i && y == 1)",
+    "error": "None",
+    "runtime_seconds": 15.405231714248657
+  },
+  {
+    "id": "result_96",
+    "final_answer": "(i == x + 1 && j == i && y == 1) || (j == i && y == 1)",
+    "error": "None",
+    "runtime_seconds": 18.742881774902344
+  },
+  {
+    "id": "result_97",
+    "final_answer": "(i == x + 1 && j == (x + 1) * y) || (j == i * y)",
+    "error": "None",
+    "runtime_seconds": 19.466066360473633
+  },
+  {
+    "id": "result_98",
+    "final_answer": "(i == x + 1 && j == 2 * i && y == 2) || (j == 2 * i && y == 2)",
+    "error": "None",
+    "runtime_seconds": 18.648489952087402
+  },
+  {
+    "id": "result_99",
+    "final_answer": "(n == x + y) || (n == x + y)",
+    "error": "None",
+    "runtime_seconds": 11.623586416244507
+  }
+]

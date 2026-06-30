@@ -1,0 +1,7 @@
+[
+    "(!(unknown()))",
+    "((unknown())) && (( unknown() )) && (( (c != 4) ))",
+    "((unknown())) && (( unknown() )) && (c == 4)",
+    "((unknown())) && (!(unknown())) && (( (c == 4) ))",
+    "((unknown())) && (!(unknown())) && (c != 4)"
+]

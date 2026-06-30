@@ -1,0 +1,434 @@
+[
+  {
+    "id": "1",
+    "final_answer": "('(x >= 0 && x < 5000 && y == 5000) || (x >= 5000 && y == x) || (x >= 0 && x < 5000 && y == 5000)',)",
+    "runtime_seconds": 74.505859375,
+    "prompt_tokens": 33058,
+    "completion_tokens": 7451,
+    "estimated_cost": 0.1158325
+  },
+  {
+    "id": "2",
+    "final_answer": "('(y >= 200 && z >= 400 && z == 2 * x) || (x >= 0 && x <= 200 && y == 200 + x && z == 400) || (x >= 200 && y == 400 && z == 2 * x)',)",
+    "runtime_seconds": 74.49172472953796,
+    "prompt_tokens": 30315,
+    "completion_tokens": 5516,
+    "estimated_cost": 0.09305375
+  },
+  {
+    "id": "3",
+    "final_answer": "(x >= z && w <= 0) || (y > z && x <= z && w == x) || (y > z && x <= z && w == x && x <= y + z + 1) || (y > z && x >= z && w == 3 * z - 2 * x && x <= y + z + 1)",
+    "runtime_seconds": 77.41932821273804,
+    "prompt_tokens": 36501,
+    "completion_tokens": 3695,
+    "estimated_cost": 0.08257624999999999
+  },
+  {
+    "id": "4",
+    "final_answer": "('(z > 0) || (x < 3452365 && z >= 0 && y >= x * (x - 1) / 2 && y <= x * (x - 1) / 2 + z) || (x >= 3452365 && z > 0)',)",
+    "runtime_seconds": 499.4000871181488,
+    "prompt_tokens": 153103,
+    "completion_tokens": 45967,
+    "estimated_cost": 0.65104875
+  },
+  {
+    "id": "5",
+    "final_answer": "(x > 0 && y < x && z >= 1) || (x > 0 && z >= 1 && y >= 0 && z > 1) || (x > 0 && y < 0 && z >= 1)",
+    "runtime_seconds": 39.59729790687561,
+    "prompt_tokens": 18426,
+    "completion_tokens": 2526,
+    "estimated_cost": 0.0482925
+  },
+  {
+    "id": "6",
+    "final_answer": "('((x == 1 || x == -1) && y >= 0 && z >= 0 && y + z >= 0 && ((x == 1 && y == z) || (x == -1 && y == z + 1))) || (x > 0 && x == 1 && y >= 0 && z >= 0 && y + z >= 0 && y == z) || (x <= 0 && x == -1 && y >= 0 && z >= 0 && y + z >= 0 && y == z + 1)',)",
+    "runtime_seconds": 65.22766590118408,
+    "prompt_tokens": 30191,
+    "completion_tokens": 7698,
+    "estimated_cost": 0.11471875
+  },
+  {
+    "id": "7",
+    "final_answer": "('v >= 0 && (z - x <= 72531 || v > 0) && z - y <= -1 || v >= 0 && (z - x <= 72531 || v > 0) && z - y <= -1 || (v >= 0 && z - x <= 72531 && z - y <= -1)',)",
+    "runtime_seconds": 123.75336861610413,
+    "prompt_tokens": 45799,
+    "completion_tokens": 11188,
+    "estimated_cost": 0.16912875
+  },
+  {
+    "id": "8",
+    "final_answer": "(x >= 1 && y >= 0 && y <= x && (x % 2 == 0) && y <= x / 2 && y >= x / 2 - 1 && y <= (x - 2) / 2) || (x >= 1 && y >= 0 && x % 2 != 0 && y == (x - 1) / 2)",
+    "runtime_seconds": 98.85003209114075,
+    "prompt_tokens": 33336,
+    "completion_tokens": 7006,
+    "estimated_cost": 0.11173
+  },
+  {
+    "id": "9",
+    "final_answer": "('(x >= 0 && x % 2 == 0 && (x <= 9997 || (x % 4 != 0 && x <= 9999) || (x % 4 == 0 && x <= 9996))) || (x >= 0 && x % 2 == 1) || (x > 1 && x < 1)',)",
+    "runtime_seconds": 408.372766494751,
+    "prompt_tokens": 107144,
+    "completion_tokens": 29708,
+    "estimated_cost": 0.43101
+  },
+  {
+    "id": "10",
+    "final_answer": "('(x >= 0 && (x % 5 == 0)) || (x >= 0 && x / 5 < 200) || (x >= 0 && x / 5 >= 200 && x % 5 == 0)',)",
+    "runtime_seconds": 80.5850739479065,
+    "prompt_tokens": 28438,
+    "completion_tokens": 7954,
+    "estimated_cost": 0.11508750000000001
+  },
+  {
+    "id": "11",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "12",
+    "final_answer": "(y == x / 2 && z == x / 2) || (y == x / 2 && z == x / 2 && x % 2 == 0) || (y == (x + 1) / 2 && z == (x - 1) / 2 && x % 2 != 0)",
+    "runtime_seconds": 33.2503342628479,
+    "prompt_tokens": 16315,
+    "completion_tokens": 2179,
+    "estimated_cost": 0.04218375
+  },
+  {
+    "id": "13",
+    "final_answer": "('(z >= 0 && x == 1) || (x > 1 && x < 1) || (z >= 0 && x == -1)',)",
+    "runtime_seconds": 338.6792426109314,
+    "prompt_tokens": 94819,
+    "completion_tokens": 28579,
+    "estimated_cost": 0.40431374999999997
+  },
+  {
+    "id": "14",
+    "final_answer": "('(x >= -100 && x <= 4 && z >= -100 && z <= 4 && z < 0 && (x - z) % 5 == 0) || (z < 0 && x >= -100 && x <= 4 && z >= -100 && z <= 4 && (x - z) % 5 == 0) || (z >= 0 && x >= 0 && x <= 4 && z >= 0 && z <= 4 && x == z)',)",
+    "runtime_seconds": 292.09403824806213,
+    "prompt_tokens": 92426,
+    "completion_tokens": 29658,
+    "estimated_cost": 0.4121125
+  },
+  {
+    "id": "15",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "16",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "17",
+    "final_answer": "('(x > z && v == 0 && w == 0) || (x < z && w > 0 && v >= 0 && w >= 0) || (x >= z && (v <= 1000 || w > 0) && v >= 0 && w >= 0)',)",
+    "runtime_seconds": 127.80244278907776,
+    "prompt_tokens": 49777,
+    "completion_tokens": 12018,
+    "estimated_cost": 0.18240125000000001
+  },
+  {
+    "id": "18",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "19",
+    "final_answer": "(x < 0 && z < 0 && x % 2 == 0 && z == x / 2) || (x < 0 && z < 0 && x % 2 == 0 && z == -1 * x) || (x >= 0 && x + z == 0)",
+    "runtime_seconds": 74.30034947395325,
+    "prompt_tokens": 36229,
+    "completion_tokens": 6772,
+    "estimated_cost": 0.11300625
+  },
+  {
+    "id": "20",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "21",
+    "final_answer": "(z == 0 && x == 0 && y == 1 && w == 1) || (z == x && y == 2 * x + 1 && w == (x + 1) % 2 && (x + y) % 2 == w) || (z == 0 && y == 2 * x + 1 && w == (x + 1) % 2 && (x + y) % 2 != w)",
+    "runtime_seconds": 41.17193078994751,
+    "prompt_tokens": 20114,
+    "completion_tokens": 2357,
+    "estimated_cost": 0.0487125
+  },
+  {
+    "id": "22",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "23",
+    "final_answer": "('(z < x && x + z == 1100) || ((x / 10) < z && z < x && x + z == 1100) || ((x / 10) >= z && z < x && x + z == 1100)',)",
+    "runtime_seconds": 161.17374300956726,
+    "prompt_tokens": 54313,
+    "completion_tokens": 13872,
+    "estimated_cost": 0.20661125000000002
+  },
+  {
+    "id": "24",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "25",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "26",
+    "final_answer": "z >= 0 && x >= 0 && y >= 25 && (x <= 50 * y || z > 0)",
+    "runtime_seconds": 21.181468963623047,
+    "prompt_tokens": 9756,
+    "completion_tokens": 1122,
+    "estimated_cost": 0.023415
+  },
+  {
+    "id": "27",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "28",
+    "final_answer": "('(x + y >= 100 && z >= 0 && (y > 0 || z > 0)) || (x + y >= 100 && z >= 0 && y <= (x / 50) && y > 0) || (x + y >= 100 && z >= 0 && y > (x / 50) && z > 0)',)",
+    "runtime_seconds": 106.49121117591858,
+    "prompt_tokens": 42506,
+    "completion_tokens": 10097,
+    "estimated_cost": 0.1541025
+  },
+  {
+    "id": "29",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "30",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "31",
+    "final_answer": "(x < z && w == x && x >= 0 && z > 53736239 && x <= z - 1) || (x >= z && x % 2 == 0 && z > 53736239 && w >= 0) || (x >= z && x % 2 != 0 && z > 53736239 && w >= 1)",
+    "runtime_seconds": 106.020840883255,
+    "prompt_tokens": 46436,
+    "completion_tokens": 9066,
+    "estimated_cost": 0.14870499999999998
+  },
+  {
+    "id": "32",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "33",
+    "final_answer": "('x >= 0 && y >= 0 && y < 100 && z >= 0 && z % 100 == 0 && y == x % 100 && z <= x && z + y == x || (x > 1 && x < 1) || (x > 1 && x < 1)',)",
+    "runtime_seconds": 204.521338224411,
+    "prompt_tokens": 69115,
+    "completion_tokens": 19212,
+    "estimated_cost": 0.27851375
+  },
+  {
+    "id": "34",
+    "final_answer": "(x >= -100 && x <= 100 && (y == 1 || y == -1) && (x + y >= -100) && (x + y <= 100))",
+    "runtime_seconds": 44.127469539642334,
+    "prompt_tokens": 23553,
+    "completion_tokens": 2693,
+    "estimated_cost": 0.056371250000000005
+  },
+  {
+    "id": "35",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "36",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "37",
+    "final_answer": "(x == 0 && y == 0 && z == 0) || (x >= 0 && x <= 1 && y == 523 * x && z == 0) || (x >= 1 && y == 523 + 250 * (x - 2) && z == 250)",
+    "runtime_seconds": 49.24358892440796,
+    "prompt_tokens": 19792,
+    "completion_tokens": 2397,
+    "estimated_cost": 0.04871
+  },
+  {
+    "id": "38",
+    "final_answer": "('(y > 50000 && (x - y) <= 5) || (y >= x && x >= 50000 && y >= 0 && y <= 50000 && x <= 50005) || (y < x && x >= 50000 && y >= 0 && y <= 50000 && x <= 50005)',)",
+    "runtime_seconds": 142.43140697479248,
+    "prompt_tokens": 40477,
+    "completion_tokens": 9523,
+    "estimated_cost": 0.14582625
+  },
+  {
+    "id": "39",
+    "final_answer": "('(z >= 0 && z >= x && (z <= 50 || z > x)) || (x * 5 < z && z >= 0 && z >= x && (z <= 50 || z > x)) || ((x * 5 >= z && z >= 0 && z >= x && (z <= 50 || z > x)))',)",
+    "runtime_seconds": 150.20845460891724,
+    "prompt_tokens": 45318,
+    "completion_tokens": 12381,
+    "estimated_cost": 0.1804575
+  },
+  {
+    "id": "40",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "41",
+    "final_answer": "('(x >= 5000 && x % 2 == 0 && y == 7500 + (x - 5000) / 2) || (x >= 5000 && x % 2 == 0 && y == 7500 + (x - 5000) / 2) || (x >= 5001 && x % 2 != 0 && y == 7500 + (x - 5001) / 2) || (x < 5000 && x % 2 == 0 && x >= 0 && y == 7500) || (x < 5000 && x % 2 != 0 && x >= 1 && y == 7500)',)",
+    "runtime_seconds": 539.7793934345245,
+    "prompt_tokens": 186307,
+    "completion_tokens": 63752,
+    "estimated_cost": 0.8704037500000001
+  },
+  {
+    "id": "42",
+    "final_answer": "('(y <= z && x >= 0 && z >= 0 && z >= 2 * x) || (y <= z && x >= 0 && z >= 0 && z >= 2 * x) || (z - y >= 0 && x >= 0 && x < 1765 && z >= 2 * x) || (z - y >= 0 && x >= 0 && x >= 1765 && z >= 2 * x + 1765) || (z - y >= 0 && x >= 0 && y < 5765 && x < 1765 && z >= 2 * x)',)",
+    "runtime_seconds": 213.47208285331726,
+    "prompt_tokens": 87049,
+    "completion_tokens": 23416,
+    "estimated_cost": 0.34297124999999995
+  },
+  {
+    "id": "43",
+    "final_answer": "('(x >= 0 && y >= 0 && (x < 50000000 || (x >= 50000000 && x < 100000000 && y == x - 50000000) || (x >= 100000000 && y == 50000000))) || (x >= 100000000 && y == 50000000) || (x >= 50000000 && x < 100000000 && y == x - 50000000) || (x >= 0 && x < 50000000 && y == 0)',)",
+    "runtime_seconds": 60.99854898452759,
+    "prompt_tokens": 30576,
+    "completion_tokens": 5607,
+    "estimated_cost": 0.09429
+  },
+  {
+    "id": "44",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "45",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "46",
+    "final_answer": "('(x >= 0 && (x < 2000 && y == 0)) || (x >= 0 && x <= 1000 && (x < 2000 || y == 0)) || (x >= 0 && x >= 1000 && (x >= 2000 && y == 0)) || (x >= 0 && x <= 1000 && (x < 2000 || y == 0)) || (x >= 0 && x >= 1000 && x / 5 >= 200 && y == 0)',)",
+    "runtime_seconds": 181.07865285873413,
+    "prompt_tokens": 64167,
+    "completion_tokens": 22963,
+    "estimated_cost": 0.30983875
+  },
+  {
+    "id": "47",
+    "final_answer": "('(x >= 0 && y >= 0 && z == 0 && x < 777 * y) || (x >= 0 && y >= 0 && z >= 0 && x >= 777 * y && x < 777 * (5 + y) && z == x - 777 * y) || (x >= 0 && y >= 0 && z >= 0 && x >= 777 * (5 + y) && x < 777 * (10 + y) && z == 3885) || (x >= 0 && y >= 0 && z >= 0 && x >= 777 * (10 + y) && z == 3885)',)",
+    "runtime_seconds": 161.77420830726624,
+    "prompt_tokens": 61437,
+    "completion_tokens": 15259,
+    "estimated_cost": 0.22938625
+  },
+  {
+    "id": "48",
+    "final_answer": "(x < 5000 && x >= 4000 && y == 4 * (x - 4000) + 4000) || (x < 4000 && y == x && x >= 0) || (x >= 6000 && y == -x + 10000) || (x >= 5000 && x < 6000 && y <= -4 * x + 28000 && y >= -4 * x + 28000)",
+    "runtime_seconds": 317.54651951789856,
+    "prompt_tokens": 120000,
+    "completion_tokens": 27001,
+    "estimated_cost": 0.42001
+  },
+  {
+    "id": "49",
+    "final_answer": "('(x == 15000 && y == 0) || ((x >= 12500) && (y == -2 * x + 30000)) || ((x >= 7500) && (x < 12500) && (y == x - 7500)) || ((x < 7500) && (x >= 2500) && (y == x - 7500)) || ((x < 2500) && (y == -2 * x))',)",
+    "runtime_seconds": 189.23970103263855,
+    "prompt_tokens": 77802,
+    "completion_tokens": 15561,
+    "estimated_cost": 0.2528625
+  },
+  {
+    "id": "50",
+    "final_answer": "('((x == y % 2000 && x >= 0 && x < 2000 && z >= 0 && w >= 0 && z + w == y && x <= 1000 && z - w == x) || (x == y % 2000 && x >= 0 && x < 2000 && z >= 0 && w >= 0 && z + w == y && x >= 1000 && z - w == 2000 - x))',)",
+    "runtime_seconds": 387.4400689601898,
+    "prompt_tokens": 176874,
+    "completion_tokens": 38546,
+    "estimated_cost": 0.6065524999999999
+  },
+  {
+    "id": "51",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "52",
+    "final_answer": "('(x >= 0 && x <= c0 && y == c0 - x && c0 == 5000) || (x >= 0 && x >= c0 && y == x - c0 && c0 == 5000) || (x >= 0 && x < c0 && y == c0 - x && c0 == 5000)',)",
+    "runtime_seconds": 141.3308355808258,
+    "prompt_tokens": 48754,
+    "completion_tokens": 12643,
+    "estimated_cost": 0.1873725
+  },
+  {
+    "id": "53",
+    "final_answer": null,
+    "runtime_seconds": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "estimated_cost": null
+  },
+  {
+    "id": "54",
+    "final_answer": "('(x >= 0 && y + z == 8000 && ((x <= 8000 && y == 8000 - x && z == x) || (x >= 8000 && y == x - 8000 && z == 16000 - x))) || (x > 1 && x < 1) || (x > 1 && x < 1)',)",
+    "runtime_seconds": 185.2037124633789,
+    "prompt_tokens": 63081,
+    "completion_tokens": 15519,
+    "estimated_cost": 0.23404124999999998
+  }
+]

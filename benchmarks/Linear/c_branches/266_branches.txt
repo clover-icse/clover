@@ -1,0 +1,5 @@
+[
+    "(!(unknown()))",
+    "((unknown())) && (flag != 0)",
+    "((unknown())) && (flag == 0)"
+]

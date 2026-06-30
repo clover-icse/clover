@@ -1,0 +1,12 @@
+[
+    "((turn >= 0) || (turn < 3))",
+    "((turn >= 0) && (turn < 3)) && (turn == 0) && ((unknown()))",
+    "((turn >= 0) && (turn < 3)) && (turn == 0) && (!(unknown()))",
+    "((turn >= 0) && (turn < 3)) && (turn != 0) && (turn == 1 && x == y) && (x == y) && ((unknown()))",
+    "((turn >= 0) && (turn < 3)) && (turn != 0) && (turn == 1 && x == y) && (x == y) && (!(unknown()))",
+    "((turn >= 0) && (turn < 3)) && (turn != 0) && (turn == 1 && x == y) && (x != y) && ((unknown()))",
+    "((turn >= 0) && (turn < 3)) && (turn != 0) && (turn == 1 && x == y) && (x != y) && (!(unknown()))",
+    "((turn >= 0) && (turn < 3)) && (turn != 0) && (turn == 1 || x == y) && (turn == 2 && i >= j) && (i >= j)",
+    "((turn >= 0) && (turn < 3)) && (turn != 0) && (turn == 1 || x == y) && (turn == 2 && i >= j) && (i < j)",
+    "((turn >= 0) && (turn < 3)) && (turn != 0) && (turn == 1 || x == y) && (turn == 2 || i >= j)"
+]

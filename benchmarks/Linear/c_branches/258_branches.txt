@@ -1,0 +1,6 @@
+[
+    "(!(unknown()))",
+    "((unknown())) && ((unknown())) && (x > 40)",
+    "((unknown())) && ((unknown())) && (x <= 40)",
+    "((unknown())) && (!(unknown()))"
+]

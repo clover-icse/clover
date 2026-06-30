@@ -1,0 +1,7 @@
+[
+    "((nonexclusive + unowned) >= 1 && invalid >= 1)",
+    "((!((nonexclusive + unowned) >= 1 && invalid >= 1))) && (invalid >= 1) && ((unknown()))",
+    "((!((nonexclusive + unowned) >= 1 && invalid >= 1))) && (invalid >= 1) && (!(unknown()))",
+    "((!((nonexclusive + unowned) >= 1 && invalid >= 1))) && (invalid < 1) && ((nonexclusive + unowned) >= 1)",
+    "((!((nonexclusive + unowned) >= 1 && invalid >= 1))) && (invalid < 1) && ((nonexclusive + unowned) < 1)"
+]

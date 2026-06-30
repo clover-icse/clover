@@ -1,0 +1,8 @@
+[
+    "((turn >= 0) || (turn < 3))",
+    "((turn >= 0) && (turn < 3)) && (turn == 0 && i >= n)",
+    "((turn >= 0) && (turn < 3)) && (turn == 0 || i >= n) && (turn == 1 && j < i)",
+    "((turn >= 0) && (turn < 3)) && (turn == 0 || i >= n) && (turn == 1 || j < i) && (turn == 1 && j >= i)",
+    "((turn >= 0) && (turn < 3)) && (turn == 0 || i >= n) && (turn == 1 || j < i) && (turn == 1 || j >= i) && (turn == 2)",
+    "((turn >= 0) && (turn < 3)) && (turn == 0 || i >= n) && (turn == 1 || j < i) && (turn == 1 || j >= i) && (turn != 2)"
+]

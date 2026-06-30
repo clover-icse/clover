@@ -1,0 +1,7 @@
+[
+    "(!(unknown()))",
+    "((unknown())) && (( unknown() )) && (( (c > n) ))",
+    "((unknown())) && (( unknown() )) && (c <= n)",
+    "((unknown())) && (!(unknown())) && (( (c == n) ))",
+    "((unknown())) && (!(unknown())) && (c != n)"
+]

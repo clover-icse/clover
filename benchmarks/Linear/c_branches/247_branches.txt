@@ -1,0 +1,4 @@
+[
+    "((j < idBitLength / 8) || (j < material_length))",
+    "((j < idBitLength / 8) && (j < material_length))"
+]

@@ -1,0 +1,4 @@
+[
+    "(guess == prev_guess)",
+    "(guess != prev_guess)"
+]
